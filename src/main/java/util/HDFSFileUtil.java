@@ -19,20 +19,20 @@ public class HDFSFileUtil {
     static {
         try{
             Properties properties = new Properties();
-            properties.load(new FileInputStream("cluster.properties"));
+            properties.load(HDFSFileUtil.class.getResourceAsStream("/cluster.properties"));
             hadoop_master = "hdfs://" + properties.getProperty("hadoop_master_ip") + ":" + properties.getProperty("hadoop_port");
-            fs = FileSystem.get(new URI(hadoop_master), new Configuration(), "root");
+            fs = FileSystem.get(new URI(hadoop_master), new Configuration(), "hadoop");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public String HDFSPath(String path) {
-        return hadoop_master + "/" + path;
+        return hadoop_master + path;
     }
 
     public void upload(String sourcePath, String targetPath, boolean isRemove) throws Exception{
-        fs.copyFromLocalFile(isRemove, new Path(sourcePath), new Path(targetPath));
+        fs.copyFromLocalFile(isRemove, new Path(sourcePath), new Path(HDFSPath(targetPath)));
     }
 
     public boolean mkdir(String path) throws IllegalArgumentException, IOException{

@@ -2,7 +2,6 @@ package util;
 
 
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
@@ -22,12 +21,12 @@ public class SparkUtil {
     static {
         try{
             Properties properties = new Properties();
-            properties.load(new FileInputStream("cluster.properties"));
+            properties.load(SparkUtil.class.getResourceAsStream("/cluster.properties"));
             String master = properties.getProperty("spark_master_ip");
             String port = properties.getProperty("spark_port");
             SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
-            sc = new JavaSparkContext(conf);
             spark = SparkSession.builder().config(conf).getOrCreate();
+            sc = new JavaSparkContext(conf);
             hdfsFileUtil = new HDFSFileUtil();
         }catch (Exception e) {
             e.printStackTrace();
