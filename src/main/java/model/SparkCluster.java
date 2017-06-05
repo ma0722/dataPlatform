@@ -8,7 +8,6 @@ import org.apache.spark.sql.Row;
 
 import java.io.IOException;
 
-
 public class SparkCluster {
 
     public Vector[] kmeans(ParamPair paramPair, Dataset dataSet) throws IOException {
