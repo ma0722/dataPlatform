@@ -1,12 +1,16 @@
 package service.task;
 
+import org.apache.spark.ml.linalg.Vector;
+import org.apache.spark.sql.Row;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import support.Cluster;
 import model.SparkCluster;
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
 import org.apache.log4j.Logger;
-import org.apache.spark.ml.param.ParamPair;
 import org.apache.spark.sql.Dataset;
+import util.JSONUtil;
 import util.SparkUtil;
 
 import java.util.Date;
@@ -16,18 +20,25 @@ public class ClusterDelegate implements JavaDelegate {
     public void execute(DelegateExecution execution) throws Exception {
         SparkCluster sparkCluster = new SparkCluster();
         SparkUtil sparkUtil = new SparkUtil();
+        JSONUtil jsonUtil = new JSONUtil();
         Logger logger = Logger.getLogger(ClusterDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
         final String type = (String)execution.getVariable("type");
-        final ParamPair paramPair = (ParamPair) execution.getVariable("paramParr");
+        final JSONObject paramPair = jsonUtil.jsonRead((String)execution.getVariable("paramPair"));
         final String dataPath = (String)execution.getVariable("dataPath");
+        final String dataFormat = (String)execution.getVariable("dataFormat");
         final String dataType = (String)execution.getVariable("dataType");
-        Dataset dataset = sparkUtil.readData(dataPath, dataType);
+        final String[] featureCols = ((String)execution.getVariable("featureCols")).split(",");
+        final String labelCol = (String)execution.getVariable("labelCol");
+        Dataset<Row> dataset = sparkUtil.readData(dataPath, dataType, dataFormat, featureCols, labelCol);
         if (dataset == null) {
             logger.error("not such data for dataType " + dataType + "and dataPath :" + dataPath);
         }
         if (type.equals(Cluster.B_KMEANS.toString())) {
-            sparkCluster.b_kmeans(paramPair, dataset);
+            Vector[] vectors = sparkCluster.b_kmeans(paramPair, dataset);
+            for(Vector vector : vectors) {
+                System.out.println(vector.toString());
+            }
         } else if (type.equals(Cluster.GMM.toString())) {
             sparkCluster.gmm(paramPair, dataset);
         } else if (type.equals(Cluster.LDA.toString())) {
