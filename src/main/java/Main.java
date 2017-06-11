@@ -7,6 +7,8 @@ import org.json.JSONObject;
 import util.HDFSFileUtil;
 import util.SparkUtil;
 
+import java.util.Date;
+
 
 public class Main {
 
@@ -20,7 +22,8 @@ public class Main {
         testClass();
     }
 
-    public static void testClass() throws Exception {
+    private static void testClass() throws Exception {
+        Date date = new Date();
         String[] featureCols = {"wigth", "age", "heigth", "interets"};
         Dataset<Row> dataset = sparkUtil.readData("/user/hadoop/data_platform/data.json", "HDFS", "json",
                 featureCols, "label");
@@ -28,7 +31,7 @@ public class Main {
         for(String column : dataset.columns())
             System.out.println(column);
         JSONObject jsonObject = new JSONObject("{'maxIter':10, 'regParam' : 0.5, 'elasticNetParam' : 0.8, 'standardization' : true}");
-        sparkClassification.lr(jsonObject, dataset, hdfsFileUtil.HDFSPath("/user/hadoop/data_platform/model/test_lr"));
+        sparkClassification.lr(jsonObject, dataset, hdfsFileUtil.HDFSPath("/user/hadoop/data_platform/model/" + String.valueOf(date.getTime())));
     }
 
     public static void testCluster() throws Exception{
