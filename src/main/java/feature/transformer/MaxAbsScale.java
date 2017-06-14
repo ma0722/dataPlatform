@@ -1,6 +1,6 @@
 package feature.transformer;
 
-import feature.Feature;
+import feature.FeatureBase;
 import org.apache.spark.ml.feature.MaxAbsScaler;
 import org.apache.spark.ml.feature.MaxAbsScalerModel;
 import org.apache.spark.sql.Dataset;
@@ -8,7 +8,7 @@ import org.apache.spark.sql.Row;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class MaxAbsScale implements Feature {
+public class MaxAbsScale implements FeatureBase {
     public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException {
         MaxAbsScaler scaler = new MaxAbsScaler()
                 .setInputCol(inputCol)

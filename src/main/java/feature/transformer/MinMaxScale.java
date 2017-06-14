@@ -1,7 +1,7 @@
 package feature.transformer;
 
 
-import feature.Feature;
+import feature.FeatureBase;
 import org.apache.spark.ml.feature.MinMaxScaler;
 import org.apache.spark.ml.feature.MinMaxScalerModel;
 import org.apache.spark.sql.Dataset;
@@ -9,7 +9,7 @@ import org.apache.spark.sql.Row;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class MinMaxScale implements Feature{
+public class MinMaxScale implements FeatureBase {
     public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException {
         MinMaxScaler scaler = new MinMaxScaler()
                 .setInputCol(inputCol)

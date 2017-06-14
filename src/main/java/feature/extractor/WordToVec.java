@@ -1,6 +1,6 @@
 package feature.extractor;
 
-import feature.Feature;
+import feature.FeatureBase;
 import org.apache.spark.ml.feature.Word2Vec;
 import org.apache.spark.ml.feature.Word2VecModel;
 import org.apache.spark.sql.Dataset;
@@ -9,7 +9,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class WordToVec implements Feature {
+public class WordToVec implements FeatureBase {
 
     public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException {
         final int vectorSize = paramPair.getInt("vectorSize");

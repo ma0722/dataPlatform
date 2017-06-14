@@ -1,6 +1,6 @@
 package feature.transformer;
 
-import feature.Feature;
+import feature.FeatureBase;
 import org.apache.spark.ml.feature.StandardScaler;
 import org.apache.spark.ml.feature.StandardScalerModel;
 import org.apache.spark.sql.Dataset;
@@ -8,7 +8,7 @@ import org.apache.spark.sql.Row;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class StandScale implements Feature{
+public class StandScale implements FeatureBase {
     public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException {
         final boolean withMean = paramPair.getBoolean("withMean");
         final boolean withStd = paramPair.getBoolean("withStd");

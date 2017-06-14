@@ -1,6 +1,6 @@
 package feature.transformer;
 
-import feature.Feature;
+import feature.FeatureBase;
 import org.apache.spark.ml.feature.ElementwiseProduct;
 import org.apache.spark.ml.linalg.Vector;
 import org.apache.spark.ml.linalg.Vectors;
@@ -10,7 +10,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class Elementwise implements Feature {
+public class Elementwise implements FeatureBase {
     public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException {
         final String[] weight_string = paramPair.getString("splits").split(",");
         double[] weight = new double[weight_string.length];

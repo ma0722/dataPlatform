@@ -9,6 +9,7 @@ import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
 import org.apache.log4j.Logger;
 import org.apache.spark.sql.Dataset;
+import util.FactoryUtil;
 import util.JSONUtil;
 import util.MongoUtil;
 import util.SparkUtil;
@@ -20,9 +21,11 @@ public class ClusterDelegate implements JavaDelegate {
 
     public void execute(DelegateExecution execution) throws Exception {
         SparkCluster sparkCluster = new SparkCluster();
-        SparkUtil sparkUtil = new SparkUtil();
-        JSONUtil jsonUtil = new JSONUtil();
-        MongoUtil mongoUtil = new MongoUtil();
+        FactoryUtil factoryUtil = FactoryUtil.getFactory();
+        SparkUtil sparkUtil = factoryUtil.getSparkUtil();
+        JSONUtil jsonUtil = factoryUtil.getJsonUtil();
+        MongoUtil mongoUtil = factoryUtil.getMongoUtil();
+
         Logger logger = Logger.getLogger(ClusterDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
         final String type = (String)execution.getVariable("type");

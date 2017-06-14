@@ -9,6 +9,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.json.JSONObject;
 import support.Classification;
+import util.FactoryUtil;
 import util.JSONUtil;
 import util.MongoUtil;
 import util.SparkUtil;
@@ -20,9 +21,11 @@ public class ClassificationDelegate implements JavaDelegate {
 
     public void execute(DelegateExecution execution) throws Exception {
         SparkClassification sparkClassification = new SparkClassification();
-        SparkUtil sparkUtil = new SparkUtil();
-        JSONUtil jsonUtil = new JSONUtil();
-        MongoUtil mongoUtil = new MongoUtil();
+        FactoryUtil factoryUtil = FactoryUtil.getFactory();
+        SparkUtil sparkUtil = factoryUtil.getSparkUtil();
+        JSONUtil jsonUtil = factoryUtil.getJsonUtil();
+        MongoUtil mongoUtil = factoryUtil.getMongoUtil();
+
         Logger logger = Logger.getLogger(ClassificationDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
 
