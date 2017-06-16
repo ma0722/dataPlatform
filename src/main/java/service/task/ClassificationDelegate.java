@@ -4,27 +4,26 @@ import model.SparkClassification;
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
 import org.apache.log4j.Logger;
-import org.apache.spark.ml.Model;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.json.JSONObject;
-import support.Classification;
+import util.FactoryUtil;
 import util.JSONUtil;
 import util.MongoUtil;
 import util.SparkUtil;
-import util.UtilManager;
 
 import java.util.Date;
-import java.util.Map;
 
 public class ClassificationDelegate implements JavaDelegate {
 
     public void execute(DelegateExecution execution) throws Exception {
         SparkClassification sparkClassification = new SparkClassification();
-        UtilManager utilManager = UtilManager.getUtilManager();
-        SparkUtil sparkUtil = utilManager.getSparkUtil();
-        JSONUtil jsonUtil = utilManager.getJsonUtil();
-        MongoUtil mongoUtil = utilManager.getMongoUtil();
+
+        FactoryUtil factoryUtil = FactoryUtil.getFactory();
+        SparkUtil sparkUtil = factoryUtil.getSparkUtil();
+        JSONUtil jsonUtil = factoryUtil.getJsonUtil();
+        MongoUtil mongoUtil = factoryUtil.getMongoUtil();
+
         Logger logger = Logger.getLogger(ClassificationDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
 

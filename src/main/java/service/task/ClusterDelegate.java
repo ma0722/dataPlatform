@@ -9,10 +9,10 @@ import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
 import org.apache.log4j.Logger;
 import org.apache.spark.sql.Dataset;
+import util.FactoryUtil;
 import util.JSONUtil;
 import util.MongoUtil;
 import util.SparkUtil;
-import util.UtilManager;
 
 import java.util.Date;
 import java.util.Map;
@@ -21,10 +21,10 @@ public class ClusterDelegate implements JavaDelegate {
 
     public void execute(DelegateExecution execution) throws Exception {
         SparkCluster sparkCluster = new SparkCluster();
-        UtilManager utilManager = UtilManager.getUtilManager();
-        SparkUtil sparkUtil = utilManager.getSparkUtil();
-        JSONUtil jsonUtil = utilManager.getJsonUtil();
-        MongoUtil mongoUtil = utilManager.getMongoUtil();
+        FactoryUtil factoryUtil = FactoryUtil.getFactory();
+        SparkUtil sparkUtil = factoryUtil.getSparkUtil();
+        JSONUtil jsonUtil = factoryUtil.getJsonUtil();
+        MongoUtil mongoUtil = factoryUtil.getMongoUtil();
         Logger logger = Logger.getLogger(ClusterDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
         final String type = (String)execution.getVariable("type");

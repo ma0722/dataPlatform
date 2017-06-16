@@ -1,26 +1,23 @@
 package service.task;
 
-import feature.FeatureManager;
-import model.SparkCluster;
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.JavaDelegate;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.json.JSONObject;
+import util.FactoryUtil;
 import util.JSONUtil;
 import util.MongoUtil;
 import util.SparkUtil;
-import util.UtilManager;
 
 
 public class FeaureDelegate implements JavaDelegate {
 
     public void execute(DelegateExecution execution) throws Exception {
-        UtilManager utilManager = UtilManager.getUtilManager();
-        SparkUtil sparkUtil = utilManager.getSparkUtil();
-        JSONUtil jsonUtil = utilManager.getJsonUtil();
-        MongoUtil mongoUtil = utilManager.getMongoUtil();
-        FeatureManager featureManager = new FeatureManager();
+        FactoryUtil factoryUtil = FactoryUtil.getFactory();
+        SparkUtil sparkUtil = factoryUtil.getSparkUtil();
+        JSONUtil jsonUtil = factoryUtil.getJsonUtil();
+        MongoUtil mongoUtil = factoryUtil.getMongoUtil();
         final String type = (String)execution.getVariable("type");
         final JSONObject paramPair = jsonUtil.jsonRead((String)execution.getVariable("paramPair"));
         final String dataPath = (String)execution.getVariable("dataPath");
