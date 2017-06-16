@@ -5,6 +5,6 @@ import org.apache.spark.sql.Row;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public interface Feature {
+public interface FeatureBase {
     abstract public Dataset<Row> run(Dataset dataset, String inputCol, JSONObject paramPair) throws JSONException;
 }

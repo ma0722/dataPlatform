@@ -2,378 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c9862d3-e969-41e5-a447-f1c4765b223d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/hello/Test.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/ModelEditorJsonRestResource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/ModelSaveRestResource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/StencilsetRestResource.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/breadcrumbs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/checker-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/blue/message_catch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/business_rule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/error_catch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/error_throw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/manual.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/message_catch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/message_throw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/receive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/send.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/signal_catch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/signal_throw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/bpmn-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/bpmn-warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/datadefinition.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/logo-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/nw-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/se-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/shapemenu_highlight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/images/wrench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/diagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_servlet_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kenai_nbpwr_org_apache_batik_all_1_7_201003011305.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_kenai_nbpwr_org_apache_commons_logging_1_0_4_201003011305.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_6_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_javax_servlet_jsp_jstl_api_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__math_geom2d_javaGeom_0_11_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_layout_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_common_rest_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_crystalball_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_diagram_rest_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_explorer_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_json_converter_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_modeler_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_simple_workflow_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_webapp_explorer2_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_api_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_impl_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_anim_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_awt_util_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_bridge_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_codec_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_css_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_dom_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_gvt_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_js_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_parser_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_script_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svg_dom_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svggen_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_transcoder_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_util_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_xml_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_fop_0_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_imgscalr_imgscalr_lib_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tinyjee_jgraphx_jgraphx_1_10_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_vaadin_addons_dcharts_widget_0_10_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_ext_1_3_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationActiviti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationMVC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/classes/stencilset.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ActivitiRest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ActivityImpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/Color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/LineBreakMeasurer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/Polyline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ProcessDiagramCanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ProcessDiagramGenerator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.asyncqueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.progressbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jstools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael.2.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael_uncompressed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/js/textlayout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/diagram-viewer/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/app-cfg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-assignment-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-condition-expression-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-custom-controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-default-controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-event-listeners-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-execution-listeners-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-fields-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-form-properties-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-in-parameters-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-message-definitions-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-message-scope-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-multiinstance-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-out-parameters-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-sequenceflow-order-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-signal-definitions-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-signal-scope-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-task-listeners-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/boolean-property-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/default-value-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/feedback-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-property-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/multiinstance-property-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-property-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/string-property-write-mode-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-display-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/text-popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/text-property-write-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar-custom-actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar-default-actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/configuration/url-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/css/style-common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/css/style-editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor-utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/css/editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_en_us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_signavio_de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_signavio_en_us.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/oryx.debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/editor/oryx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/eventbus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/header-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/i18n/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-dragdrop.min-1.0.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular_1.2.13/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/angular_1.2.13/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/CHANGES" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery-ui-1.10.3.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery.autogrow-textarea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/lib/json3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/lib/json3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/momentjs_2.5.1/momentjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/mousetrap-1.4.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/ng-grid-2.0.7-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/ng-grid-2.0.7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/path_parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/prototype-1.5.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/libs/ui-utils.min-0.0.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/partials/root-stencil-item-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/partials/stencil-item-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/plugins.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/popups/icon-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/popups/save-model.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/popups/select-shape.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/popups/unsaved-changes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/select-shape-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/stencil-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/editor-app/toolbar-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/modeler.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/webpage/test.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/editor/ModelEditorJsonRestResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/editor/ModelSaveRestResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/editor/StencilsetRestResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationActiviti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/stencilset.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_8_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Example.java" afterPath="$PROJECT_DIR$/src/main/java/test/Example.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/SparkClassification.class" afterPath="$PROJECT_DIR$/target/classes/model/SparkClassification.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/task/ClassificationDelegate.class" afterPath="$PROJECT_DIR$/target/classes/service/task/ClassificationDelegate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/task/ClusterDelegate.class" afterPath="$PROJECT_DIR$/target/classes/service/task/ClusterDelegate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/feature/FeatureManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/task/FeaureDelegate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/support/Feature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/UtilManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/feature/Feature.java" afterPath="$PROJECT_DIR$/src/main/java/feature/FeatureBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/css/style-common.css" afterPath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/css/style-common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataPlatform.iml" afterPath="$PROJECT_DIR$/dataPlatform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/CounterVector.java" afterPath="$PROJECT_DIR$/src/main/java/feature/extractor/CounterVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/TF_IDF.java" afterPath="$PROJECT_DIR$/src/main/java/feature/extractor/TF_IDF.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/WordToVec.java" afterPath="$PROJECT_DIR$/src/main/java/feature/extractor/WordToVec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/ChiSqSelect.java" afterPath="$PROJECT_DIR$/src/main/java/feature/selector/ChiSqSelect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/RModelFormula.java" afterPath="$PROJECT_DIR$/src/main/java/feature/selector/RModelFormula.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/VectorSlice.java" afterPath="$PROJECT_DIR$/src/main/java/feature/selector/VectorSlice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Binarization.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/Binarization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Bucketize.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/Bucketize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/DiscreteCosineTransform.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/DiscreteCosineTransform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Elementwise.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/Elementwise.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/MaxAbsScale.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/MaxAbsScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/MinMaxScale.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/MinMaxScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/N_Gram.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/N_Gram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Normalize.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/Normalize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/OneHot.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/OneHot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/PCA_.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/PCA_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/PolynomialExpand.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/PolynomialExpand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/QuantileDiscretize.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/QuantileDiscretize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/RemoveStopWords.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/RemoveStopWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/SQLTransform.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/SQLTransform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/StandScale.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/StandScale.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/StringIndex.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/StringIndex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Token.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorAssemble.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorAssemble.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorIndex.java" afterPath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorIndex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java" afterPath="$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java" afterPath="$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -386,122 +47,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modeler.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/modeler.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1477986436000" expanded="true" signature="1593:1736" ph="..." />
-                <marker date="1477986436000" expanded="true" signature="1622:1728" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MongoUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/MongoUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModelEditorJsonRestResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/editor/ModelEditorJsonRestResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/editor-app/plugins.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style-editor.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/editor-app/css/style-editor.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Enum" />
         <option value="BpmnFile" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -556,8 +109,6 @@
         <option value="$PROJECT_DIR$/src/main/java/util/JSONUtil.java" />
         <option value="$PROJECT_DIR$/data/data1.json" />
         <option value="$PROJECT_DIR$/src/main/java/model/SparkCluster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/SparkUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/SparkClassification.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
@@ -569,6 +120,13 @@
         <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/feature/transformer/Bucketize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/support/Feature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/UtilManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/feature/FeatureManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/task/FeaureDelegate.java" />
       </list>
     </option>
   </component>
@@ -587,7 +145,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="y" value="1072" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -609,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -634,7 +191,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,16 +209,99 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -667,6 +311,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dfl" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1178,12 +823,13 @@
       <workItem from="1496749862739" duration="21406000" />
       <workItem from="1497346260058" duration="8000" />
       <workItem from="1497348567431" duration="103000" />
-      <workItem from="1497348936188" duration="3053000" />
+      <workItem from="1497348936188" duration="3077000" />
+      <workItem from="1497576871514" duration="5645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66025000" />
+    <option name="totallyTimeSpent" value="71694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1195,39 +841,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="1072" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.49777496" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.50731087" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3900325" sideWeight="0.576226" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5405117" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16468039" sideWeight="0.42377397" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279318" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.49777496" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.48347548" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3900325" sideWeight="0.576226" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5405117" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3900325" sideWeight="0.42377397" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49777496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.48347548" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49777496" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299428" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1246,59 +892,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7830">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20090211/json-20090211.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20090211/json-20090211.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="261" column="15" lean-forward="false" selection-start-line="261" selection-start-column="15" selection-end-line="261" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.10/2.0.0/spark-mllib_2.10-2.0.0-sources.jar!/org/apache/spark/ml/clustering/KMeans.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/JSONUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cluster.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0/spark-sql_2.11-2.0.0.jar!/org/apache/spark/sql/SparkSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0/spark-sql_2.11-2.0.0.jar!/org/apache/spark/sql/DataFrameReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/net/InetAddress.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0/spark-sql_2.11-2.0.0-sources.jar!/org/apache/spark/sql/DataFrameReader.scala" />
-    <entry file="file://$PROJECT_DIR$/data/data1.json" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.0.0/spark-mllib_2.11-2.0.0.jar!/org/apache/spark/ml/clustering/KMeans.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1322,41 +915,10 @@
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/support/Cluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/support/DataType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/support/Classification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1371,11 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="897">
           <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1733#1734#0" expanded="false" />
-            <element signature="e#1770#1771#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,16 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/feature/Feature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1445,10 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1497349919850" expanded="true" signature="1449:1458" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1456,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,7 +1013,7 @@
         <state relative-caret-position="598">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1500,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,9 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1592,19 +1123,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/util/MongoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/editor/ModelEditorJsonRestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1617,11 +1138,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/feature/selector/VectorSlice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/Feature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/Classification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/feature/transformer/Bucketize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/HDFSFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/UtilManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/feature/FeatureBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="92" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="460">
           <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#properties#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="1821" column="26" lean-forward="false" selection-start-line="1821" selection-start-column="26" selection-end-line="1821" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/feature/FeatureManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/5.22.0/activiti-engine-5.22.0.jar!/org/activiti/engine/delegate/JavaDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/workFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/task/FeaureDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/editor/ModelEditorJsonRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
