@@ -20,14 +20,14 @@ public class Main {
     static SparkClassification sparkClassification = new SparkClassification();
 
     public static void main(String[] args) throws Exception{
-//        hdfsFileUtil.upload("data/data.json", "/user/hadoop/data_platform/", false);
+//        hdfsFileUtil.upload("data/data.json", "/user/hadoop/data_platform/data/data.json", false);
         testClass();
     }
 
     private static void testClass() throws Exception {
         Date date = new Date();
         String[] featureCols = {"wigth", "age", "heigth", "interets"};
-        Dataset<Row> dataset = sparkUtil.readData("/user/hadoop/data_platform/data.json", "HDFS", "json",
+        Dataset<Row> dataset = sparkUtil.readData("/user/hadoop/data_platform/data/data.json", "HDFS", "json",
                 featureCols, "label");
         System.out.println(dataset.count());
         for(String column : dataset.columns())

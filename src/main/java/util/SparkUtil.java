@@ -21,13 +21,14 @@ public class SparkUtil {
 
     static {
         try{
+            FactoryUtil factoryUtil = FactoryUtil.getFactory();
             Properties properties = new Properties();
             properties.load(SparkUtil.class.getResourceAsStream("/cluster.properties"));
             String master = properties.getProperty("spark_master_ip");
             String port = properties.getProperty("spark_port");
             SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
             spark = SparkSession.builder().config(conf).getOrCreate();
-            hdfsFileUtil = new HDFSFileUtil();
+            hdfsFileUtil = factoryUtil.getHDFSUtil();
         }catch (Exception e) {
             e.printStackTrace();
         }
