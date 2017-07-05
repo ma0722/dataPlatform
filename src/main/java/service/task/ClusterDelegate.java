@@ -25,7 +25,6 @@ public class ClusterDelegate implements JavaDelegate {
         SparkUtil sparkUtil = factoryUtil.getSparkUtil();
         JSONUtil jsonUtil = factoryUtil.getJsonUtil();
         MongoUtil mongoUtil = factoryUtil.getMongoUtil();
-
         Logger logger = Logger.getLogger(ClusterDelegate.class);
         logger.info(new Date().toString() + "activiti id: " + execution.getCurrentActivityId() + "actiiviti name" + execution.getCurrentActivityName());
         final String type = (String)execution.getVariable("type");
