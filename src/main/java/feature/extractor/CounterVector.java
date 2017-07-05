@@ -12,7 +12,7 @@ public class CounterVector implements FeatureBase {
         String[] vocabulary = paramPair.getString("vocabulary").split(" ");
         CountVectorizerModel cvModel = new CountVectorizerModel(vocabulary)
                 .setInputCol(inputCol)
-                .setOutputCol(inputCol + CounterVector.class.getName());
+                .setOutputCol(inputCol + this.getClass().getName());
         return cvModel.transform(dataset);
     }
 }

@@ -17,7 +17,7 @@ public class WordToVec implements FeatureBase {
         final int windowSize = paramPair.getInt("windowSize");
         Word2Vec word2Vec = new Word2Vec()
                 .setInputCol(inputCol)
-                .setOutputCol(inputCol + WordToVec.class.getName())
+                .setOutputCol(inputCol + this.getClass().getName())
                 .setVectorSize(vectorSize)
                 .setMinCount(minCount)
                 .setWindowSize(windowSize);

@@ -23,7 +23,7 @@ public class TF_IDF implements FeatureBase {
                 .setOutputCol("raw_features_TF_IDF")
                 .setNumFeatures(numFeatures);
         Dataset<Row> featurizedData = hashingTF.transform(wordsData);
-        IDF idf = new IDF().setInputCol("raw_features_TF_IDF").setOutputCol(inputCol + TF_IDF.class.getName());
+        IDF idf = new IDF().setInputCol("raw_features_TF_IDF").setOutputCol(inputCol + this.getClass().getName());
         IDFModel idfModel = idf.fit(featurizedData);
         return idfModel.transform(featurizedData);
     }
