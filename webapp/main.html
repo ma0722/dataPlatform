@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Data Platform</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.snippet.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar" style="background: honeydew">
+            <div id="components">
+                <h4>组件</h4>
+            </div>
+            <hr style="height:1px"/>
+            <div id="componentParameters" class="table-responsive">
+                <h4>组件参数:</h4><br/>
+                <h4 id="current_name"></h4>
+                <table id="parameterTable" class="table table-bordered tab-pane">
+                    <tr>
+                        <th>名称</th>
+                        <th>类型</th>
+                        <th>参数值</th>
+                    </tr>
+                </table>
+                <input class="btn btn-default" id="parameterSubmit" type="submit" value="确认">
+                <input class="btn btn-default" id="delete" type="submit" value="删除">
+            </div>
+            <div id="link_set">
+                <div class="form-group">
+                    <label for="input_select">Input</label>
+                    <select id="input_select" class="form-control">
+                        <option disabled>---请选择---</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="output_select">Output</label>
+                    <select id="output_select" class="form-control">
+                        <option disabled>---请选择---</option>
+                    </select>
+                </div>
+                <input type="button" class="btn-default btn" id="link_confirm" value="确认">
+            </div>
+            <div id="link">
+                <div class="form-inline">
+                    <h4>链接信息:</h4><br/>
+                    <div class="form-group">
+                        <label for="link_from">from component</label>
+                        <input type="text" class="form-control" id="link_from" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="link_to">to component</label>
+                        <input type="text" class="form-control" id="link_to" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="link_input">input</label>
+                        <input type="text" class="form-control" id="link_input" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="link_output">output</label>
+                        <input type="text" class="form-control" id="link_output" disabled>
+                    </div>
+                    <input type="button" id="link_delete" class="btn-default btn" value="删除"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-8 main">
+            <canvas width="900" height="700" id="canvas" style=" background-color:#EEEEEE; border:1px solid #444;"></canvas>
+            <input type="button" class="btn btn-success" id="run" value="运行">
+            <input type="button" class="btn btn-success" id="reset" onclick="location.reload()" value="清空画板">
+        </div>
+        <div class="col-sm-3 col-md-2 sidebar" style="background: honeydew">
+            <div class="form-inline">
+                <h4>项目信息:</h4><br/>
+                <div class="form-group">
+                    <label for="project_name">Project Name</label>
+                    <input type="text" class="form-control" id="project_name" >
+                </div>
+                <div class="form-group">
+                    <label for="project_description">Description</label>
+                    <textarea class="form-control" id="project_description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="project_version">Version</label>
+                    <input type="text" class="form-control" id="project_version">
+                </div>
+            </div>
+            <hr style="height:1px">
+            <div id="componentInfo" style="background: border-box" class="form-inline">
+                <h4>组件信息:</h4><br/>
+                <div class="form-group">
+                    <label for="component_name">Name</label>
+                    <input type="text" class="form-control" id="component_name" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_description">Description</label>
+                    <input type="text" class="form-control" id="component_description" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_version">Version</label>
+                    <input type="text" class="form-control" id="component_version" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_created_time">Created Time</label>
+                    <input type="text" class="form-control" id="component_created_time" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_owner">Owner</label>
+                    <input type="text" class="form-control" id="component_owner" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_input">Input</label>
+                    <input type="text" class="form-control" id="component_input" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="component_output">Output</label>
+                    <input type="text" class="form-control" id="component_output" disabled>
+                </div>
+            </div>
+            <hr style="height:1px"/>
+        </div>
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/jquery.snippet.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/toolbar.js"></script>
+    <script src="js/lib/jtopo-min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

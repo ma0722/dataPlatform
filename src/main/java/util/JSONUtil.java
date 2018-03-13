@@ -1,14 +1,19 @@
 package util;
 
-import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONTokener;
+
+import java.io.File;
+import java.io.FileReader;
+import java.net.URL;
 
 public class JSONUtil {
 
-    public JSONObject jsonRead(String jsonObjStr) {
+    static public JSONObject jsonRead(String path) {
         try {
-            return new JSONObject(jsonObjStr);
-        } catch (JSONException e) {
+            JSONObject jsonobj = new JSONObject(new JSONTokener(new FileReader(new File(path))));
+            return jsonobj;
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return null;

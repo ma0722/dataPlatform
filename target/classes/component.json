@@ -1,0 +1,169 @@
+{
+  "ReadHDFSData" : {
+    "name": "ReadHDFSData",
+    "class" : "compontent.data.HDFSData",
+    "description": "读取位于HDFS上的数据",
+    "version": "1.0",
+    "created_time": "2016.9.30",
+    "owner": "machao",
+    "parameters": {
+      "dataPath" : {
+        "type": "String",
+        "val": "libsvm"
+      },
+      "dataFormat" : {
+        "type": "String",
+        "val": "user.txt"
+      }
+    },
+    "input" : {"None" : false},
+    "output" : {"data" : true}
+  },
+
+  "DataSplit" : {
+    "name": "DataSplit",
+    "class" : "compontent.data.DataSplit",
+    "description": "将数据集合分为训练数据，测试数据",
+    "version": "1.0",
+    "created_time": "2016.9.30",
+    "owner": "machao",
+    "parameters": {
+      "trainingDataSize" : {
+        "type": "double",
+        "val": "0.7"
+      }
+    },
+    "input" : {"data" : true},
+    "output" : {"trainingData" : true, "testData" : true}
+  },
+
+  "LogisticsRegression" :  {
+    "name" : "LogisticsRegression",
+    "class" : "compontent.model.classification.LogisticRegressionC",
+    "description" : "用于分类的逻辑回归模型",
+    "version" : "1.0",
+    "created_time" : "2017.9.30",
+    "owner" : "12345678@qq.com",
+    "parameters" : {
+      "maxIter": {
+        "type": "int",
+        "val": "50"
+      },
+      "reg" : {
+        "type": "double",
+        "val": "0.2"
+      },
+      "elasticNet" : {
+        "type": "double",
+        "val": "0.8"
+      },
+      "tol" : {
+        "type": "double",
+        "val": "0.1"
+      },
+      "savePath" : {
+        "type": "double",
+        "val": "null"
+      }
+    }
+  ,
+    "input" : {"data" : true},
+    "output" : {"model" : true}
+  },
+
+  "Kmeans" :  {
+    "name" : "Kmeans",
+    "class" : "compontent.model.cluster.KmeansC",
+    "description" : "Kmeans聚类算法",
+    "version" : "1.0",
+    "created_time" : "2017.9.30",
+    "owner" : "12345678@qq.com",
+    "parameters" : {
+      "K": {
+        "type": "Int",
+        "val": "10"
+      },
+      "seed" : {
+        "type": "long",
+        "val": "0.2"
+      },
+      "initSteps" : {
+        "type": "int",
+        "val": "100"
+      },
+      "tol" : {
+        "type": "double",
+        "val": "0.1"
+      },
+      "savePath" : {
+        "type": "String",
+        "val": "logisticsRegressionModel"
+      }
+    }
+  ,
+    "input" : {"data" : true},
+    "output" : {"model" : true, "vectors" : true}
+  },
+
+  "Ngram" :  {
+    "name" : "Ngram",
+    "class" : "compontent.model.transformer.Ngram",
+    "description" : "N-gram算法，计算N-gram特征",
+    "version" : "1.0",
+    "created_time" : "2017.9.30",
+    "owner" : "12345678@qq.com",
+    "parameters" : {
+      "N": {
+        "type": "Int",
+        "val": "3"
+      },
+      "inputCol" : {
+        "type": "String",
+        "val": ""
+      },
+      "outputCol" : {
+        "type": "String",
+        "val": ""
+      }
+    }
+  ,
+    "input" : {"data" : true},
+    "output" : {"data" : true}
+  },
+
+  "MysqlData" :  {
+      "name" : "MysqlData",
+      "class" : "compontent.data.MysqlData",
+      "description" : "读取Mysql上的数据",
+      "version" : "1.0",
+      "created_time" : "2017.9.30",
+      "owner" : "12345678@qq.com",
+      "parameters" : {
+        "ip": {
+          "type": "String",
+          "val": ""
+        },"port": {
+          "type": "int",
+          "val": ""
+        },"database": {
+          "type": "String",
+          "val": ""
+        },"username": {
+          "type": "String",
+          "val": ""
+        },"password": {
+          "type": "String",
+          "val": ""
+        },
+        "sql" : {
+          "type": "String",
+          "val": ""
+        }
+      }
+    ,
+      "input" : {"none" : false},
+      "output" : {"data" : true}
+    }
+
+
+}

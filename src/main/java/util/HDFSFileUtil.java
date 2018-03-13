@@ -1,5 +1,5 @@
 package util;
-import java.io.FileInputStream;
+
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -27,38 +27,38 @@ public class HDFSFileUtil {
         }
     }
 
-    public String HDFSPath(String path) {
+    static public String HDFSPath(String path) {
         return hadoop_master + path;
     }
 
-    public void upload(String sourcePath, String targetPath, boolean isRemove) throws Exception{
+    static public void upload(String sourcePath, String targetPath, boolean isRemove) throws Exception{
         fs.copyFromLocalFile(isRemove, new Path(sourcePath), new Path(HDFSPath(targetPath)));
     }
 
-    public boolean mkdir(String path) throws IllegalArgumentException, IOException{
+    static public boolean mkdir(String path) throws IllegalArgumentException, IOException{
         return fs.mkdirs(new Path(path));
     }
 
-    public void download(String sourcePath ,String targetPath, boolean isRemove) throws IllegalArgumentException, IOException{
+    static public void download(String sourcePath ,String targetPath, boolean isRemove) throws IllegalArgumentException, IOException{
         fs.copyToLocalFile(isRemove, new Path(sourcePath), new Path(targetPath));
     }
 
-    public boolean delFile(String path, boolean isDir) throws IllegalArgumentException, IOException{
+    static public boolean delFile(String path, boolean isDir) throws IllegalArgumentException, IOException{
         if(isDir)
             return fs.delete(new Path(path),true);
         else
             return fs.deleteOnExit(new Path(path));
     }
 
-    public boolean rename(String sourcePath, String targetPath) throws IllegalArgumentException, IOException{
+    static public boolean rename(String sourcePath, String targetPath) throws IllegalArgumentException, IOException{
         return fs.rename(new Path(sourcePath),new Path(targetPath));
     }
 
-    public boolean checkFile(String path) throws IllegalArgumentException, IOException{
+    static public boolean checkFile(String path) throws IllegalArgumentException, IOException{
         return fs.exists(new Path(path));
     }
 
-    public ArrayList fileLoc(String path) throws IllegalArgumentException, IOException{
+    static public ArrayList fileLoc(String path) throws IllegalArgumentException, IOException{
         FileStatus filestatus = fs.getFileStatus(new Path(path));
         BlockLocation[] blkLocations=fs.getFileBlockLocations(filestatus, 0, filestatus.getLen());
         ArrayList<String> arrayList = new ArrayList<String>();
