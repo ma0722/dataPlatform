@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating-sources.jar!/" />
     </SOURCES>

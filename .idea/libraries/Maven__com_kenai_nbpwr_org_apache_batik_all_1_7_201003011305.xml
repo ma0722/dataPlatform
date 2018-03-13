@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-apache-batik-all/1.7-201003011305/org-apache-batik-all-1.7-201003011305.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-apache-batik-all/1.7-201003011305/org-apache-batik-all-1.7-201003011305-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/kenai/nbpwr/org-apache-batik-all/1.7-201003011305/org-apache-batik-all-1.7-201003011305-sources.jar!/" />
     </SOURCES>

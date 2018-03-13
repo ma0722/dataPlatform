@@ -1,15 +1,15 @@
 package compontent.data;
 
 import compontent.Component;
-import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.SparkConf;
 import org.apache.spark.sql.DataFrameReader;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SQLContext;
+import org.apache.spark.sql.SparkSession;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
 import util.SparkUtil;
-
 
 public class MysqlData extends Component {
 
@@ -21,7 +21,9 @@ public class MysqlData extends Component {
     private String sql;
 
     public void run() throws  Exception {
-        DataFrameReader reader = SparkUtil.spark.read().format("jdbc");
+        SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
+        SparkSession spark = SparkSession.builder().config(conf).getOrCreate();
+        DataFrameReader reader = spark.read().format("jdbc");
         String url = String.format("jdbc:mysql://%s:%d/%s", ip, port, database);
         reader.option("url",url);
         reader.option("dbtable", sql);
@@ -32,10 +34,10 @@ public class MysqlData extends Component {
         Dataset<Row> dataset = reader.load();
         for (String v : dataset.columns())
             System.out.println(v);
-        dataset.show(10);
-        dataset.collect();
-        if(outputs.containsKey("vectors"))
-            outputs.get("data").setDataset(dataset);
+        dataset.show();
+//        dataset.collect();
+//        if(outputs.containsKey("vectors"))
+//            outputs.get("data").setDataset(dataset);
 
     }
 
@@ -53,5 +55,16 @@ public class MysqlData extends Component {
         if(parameters.has("sql"))
             this.sql = parameters.getJSONObject("sql").getString("value");
     }
-
+    
+    @Test
+    public void test() throws Exception{
+        this.ip = "127.0.0.1";
+        this.username = "root";
+        this.password = "";
+        this.database = "test";
+        this.port = 3306;
+//        this.sql = "(select * from news) as a";
+        this.sql = "news";
+        run();
+    }
 }

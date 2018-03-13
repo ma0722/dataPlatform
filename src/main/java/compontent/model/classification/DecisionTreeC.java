@@ -6,6 +6,7 @@ import org.apache.spark.ml.classification.DecisionTreeClassificationModel;
 import org.apache.spark.sql.Dataset;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
 
 import java.io.IOException;
 
@@ -49,5 +50,9 @@ public class DecisionTreeC extends Component {
     public void save() throws IOException {
         model_.save(path);
     }
-
+    
+    @Test
+    public void test() throws Exception{
+        run();
+    }
 }

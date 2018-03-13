@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin/6.8.8/vaadin-6.8.8.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin/6.8.8/vaadin-6.8.8-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin/6.8.8/vaadin-6.8.8-sources.jar!/" />
     </SOURCES>

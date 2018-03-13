@@ -6,6 +6,7 @@ import org.apache.spark.ml.clustering.GaussianMixtureModel;
 import org.apache.spark.sql.Dataset;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
 
 import java.io.IOException;
 
@@ -43,6 +44,10 @@ public class GMMC extends Component {
     public void save() throws IOException {
         model_.save(path);
     }
-
+    
+    @Test
+    public void test() throws Exception{
+        run();
+    }
 
 }

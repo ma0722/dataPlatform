@@ -5,6 +5,7 @@ import org.apache.spark.ml.classification.*;
 import org.apache.spark.sql.Dataset;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
 import util.HDFSFileUtil;
 
 import java.io.IOException;
@@ -50,6 +51,11 @@ public class LogisticRegressionC extends Component {
 
     public void save() throws IOException {
         model_.save(HDFSFileUtil.HDFSPath(path));
+    }
+    
+    @Test
+    public void test() throws Exception{
+        run();
     }
 
 }
