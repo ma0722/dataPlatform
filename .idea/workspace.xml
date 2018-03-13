@@ -2,814 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ce487d-e2b2-49ea-b10f-2af5c3d532bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/img/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webapp/img/component.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_huaban_jieba_analysis_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_35.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Base/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Base/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Base/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/data/DataSplit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/data/HDFSData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/data/LocalData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/data/MysqlData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/TokenizerC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/transformer/Ngram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/transformer/StopWordsRemoverC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/DecisionTreeC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/GBDTC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/LogisticRegressionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/NaiveBayesC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/OneVsRestC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/classification/RandomForestC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/B_KmeansC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/GMMC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/KmeansC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/LDAC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/estimate/BinaryClassificationEvaluatorC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/compontent/model/estimate/MutClassificationEvaluatorC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/ComponentUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/b.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/component.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationActiviti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/applicationMVC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/hello/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/ModelEditorJsonRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/ModelSaveRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/com/rest/editor/StencilsetRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/stencilset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/breadcrumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/checker-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/blue/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/business_rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/error_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/error_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/message_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/signal_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/signal_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/images/deployer/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ActivitiRest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ActivityImpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/Color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/LineBreakMeasurer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jquery/jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/jstools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael.2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/raphael_uncompressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/js/textlayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/diagram-viewer/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/app-cfg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-assignment-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-condition-expression-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-custom-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-default-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-event-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-execution-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-fields-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-form-properties-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-in-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-message-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-message-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-multiinstance-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-out-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-sequenceflow-order-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-signal-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-signal-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties-task-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/assignment-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/boolean-property-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/condition-expression-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/default-value-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/event-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/execution-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/feedback-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/fields-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/form-properties-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/in-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/message-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/multiinstance-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/out-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/signal-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/string-property-write-mode-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/subprocess-reference-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/task-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/text-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/properties/text-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar-custom-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar-default-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/configuration/url-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/css/style-common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/css/style-editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/css/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_signavio_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/i18n/translation_signavio_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/oryx.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/editor/oryx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/eventbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/activiti-admin-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/header-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/i18n/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/bpmn-error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/bpmn-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/datadefinition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/nw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/se-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/shapemenu_highlight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/images/wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/angular_1.2.13/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/lib/json3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/mousetrap-1.4.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/ng-grid-2.0.7-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/ng-grid-2.0.7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/path_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/prototype-1.5.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/libs/ui-utils.min-0.0.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/partials/root-stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/partials/stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/plugins.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/popups/icon-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/popups/save-model.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/popups/select-shape.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/popups/unsaved-changes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/select-shape-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencil-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/editor-app/toolbar-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/modeler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/webpage/test.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/artifacts/bamboo_activiti_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/libraries/lib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/libraries/lib1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.wst.common.component" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/applicationActiviti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/applicationMVC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/com/hello/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/com/rest/editor/ModelEditorJsonRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/com/rest/editor/ModelSaveRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/com/rest/editor/StencilsetRestResource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/classes/stencilset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activation-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-bpmn-converter-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-bpmn-layout-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-bpmn-model-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-common-rest-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-crystalball-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-diagram-rest-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-engine-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-explorer-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-image-generator-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-json-converter-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-modeler-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-process-validation-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-simple-workflow-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/activiti-spring-5.22.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/avalon-framework-api-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/avalon-framework-impl-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-anim-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-awt-util-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-bridge-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-codec-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-css-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-dom-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-ext-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-gvt-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-js-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-parser-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-script-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-svg-dom-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-svggen-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-transcoder-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-util-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/batik-xml-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/commons-email-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/commons-io-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/dcharts-widget-0.10.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/fop-0.94.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/groovy-all-2.4.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/gwt-servlet-2.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/h2-1.3.176.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/imgscalr-lib-4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jackson-core-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jackson-databind-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/javaGeom-0.11.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/javax.mail-1.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jgraphx-1.10.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/joda-time-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/mysql-connector-java.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/slf4j-api-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/slf4j-log4j12-1.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-aop-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-beans-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-context-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-core-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-expression-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-jdbc-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-orm-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-security-config-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-security-core-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-security-crypto-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-security-web-3.2.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-tx-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-web-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/spring-webmvc-4.1.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/vaadin-6.8.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/xml-apis-1.3.04.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/xml-apis-ext-1.3.04.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/lib/xmlgraphics-commons-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/breadcrumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/checker-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/blue/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/business_rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/error_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/error_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/message_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/message_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/signal_catch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/signal_throw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/images/deployer/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/ActivitiRest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/ActivityImpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/Color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/LineBreakMeasurer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/jquery/jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/jstools.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/raphael.2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/raphael_uncompressed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/js/textlayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/diagram-viewer/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/app-cfg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-assignment-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-condition-expression-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-custom-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-default-controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-event-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-execution-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-fields-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-form-properties-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-in-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-message-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-message-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-multiinstance-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-out-parameters-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-sequenceflow-order-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-signal-definitions-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-signal-scope-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties-task-listeners-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/assignment-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/assignment-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/assignment-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/boolean-property-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/condition-expression-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/condition-expression-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/condition-expression-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/default-value-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/event-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/event-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/event-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/execution-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/execution-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/execution-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/feedback-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/fields-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/fields-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/fields-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/form-properties-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/form-properties-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/form-properties-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/in-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/in-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/in-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/message-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/message-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/message-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/message-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/multiinstance-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/out-parameters-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/out-parameters-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/out-parameters-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/sequenceflow-order-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/signal-definitions-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/signal-definitions-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/signal-definitions-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/signal-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/string-property-write-mode-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/subprocess-reference-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/subprocess-reference-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/subprocess-reference-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/task-listeners-display-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/task-listeners-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/task-listeners-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/text-popup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/properties/text-property-write-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/toolbar-custom-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/toolbar-default-actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/configuration/url-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/css/style-common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/css/style-editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor-utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/css/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/i18n/translation_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/i18n/translation_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/i18n/translation_signavio_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/i18n/translation_signavio_en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/oryx.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/editor/oryx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/eventbus.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/activiti-admin-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/activiti-admin-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/activiti-admin-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/activiti-admin-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/header-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/i18n/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/bpmn-error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/bpmn-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/datadefinition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/nw-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/se-handle-dark.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/shapemenu_highlight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/images/wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/angular_1.2.13/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/jquery_1.11.0/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/jquery_1.11.0/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/json3_3.2.6/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/json3_3.2.6/lib/json3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/mousetrap-1.4.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/ng-grid-2.0.7-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/ng-grid-2.0.7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/path_parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/prototype-1.5.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/libs/ui-utils.min-0.0.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/partials/root-stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/partials/stencil-item-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/plugins.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/popups/icon-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/popups/save-model.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/popups/select-shape.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/popups/unsaved-changes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/select-shape-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencil-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/editor-app/toolbar-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/modeler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/WebContent/webpage/test.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/bamboo-activiti.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-aop-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-aspects-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-beans-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-context-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-context-support-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-core-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-expression-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-instrument-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-instrument-tomcat-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-jdbc-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-jms-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-messaging-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-orm-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-oxm-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-test-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/lib/spring-tx-4.3.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/applicationActiviti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/applicationMVC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/com/hello/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/com/rest/editor/ModelEditorJsonRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/com/rest/editor/ModelSaveRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/com/rest/editor/StencilsetRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bamboo-activiti/src/stencilset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ProcessManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/Cluster/SparkCluster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/editor/ModelEditorJsonRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/editor/ModelSaveRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/editor/StencilsetRestResource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/FeatureBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/FeatureManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/ChiSqSelect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/RModelFormula.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/selector/VectorSlice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Binarization.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Bucketize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/DiscreteCosineTransform.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Elementwise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/MaxAbsScale.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/MinMaxScale.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/N_Gram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Normalize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/OneHot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/PCA_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/PolynomialExpand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/QuantileDiscretize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/RemoveStopWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/SQLTransform.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/StandScale.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/StringIndex.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/Token.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorAssemble.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/feature/transformer/VectorIndex.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/model/SparkClassification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/model/SparkEstimate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/task/ClassificationDelegate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/task/ClusterDelegate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/service/task/FeaureDelegate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/support/Classification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/support/Cluster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/support/DataType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/support/Feature.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/test/Example.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/util/FactoryUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/applicationActiviti.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/applicationMVC.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/bpmn/cluster.bpmn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/stencilset.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/bpmn/cluster.bpmn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/util/FactoryUtil.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/CounterVector.java" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/CounterVector.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/TF_IDF.java" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/TF_IDF.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/feature/extractor/WordToVec.java" afterPath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/WordToVec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/HDFSFileUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/HDFSFileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/JSONUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/JSONUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/SparkUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/SparkUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/HDFSFileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/util/HDFSFileUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/JSONUtil.java" afterPath="$PROJECT_DIR$/src/main/java/util/JSONUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/SparkUtil.java" afterPath="$PROJECT_DIR$/src/main/java/util/SparkUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="data-platform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -837,7 +30,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#696#697#0" expanded="false" />
+                <element signature="e#726#727#0" expanded="false" />
+                <element signature="e#774#775#0" expanded="false" />
+                <element signature="e#812#813#0" expanded="false" />
+                <element signature="e#846#847#0" expanded="false" />
+                <element signature="e#878#879#0" expanded="false" />
+                <element signature="e#910#911#0" expanded="false" />
+                <element signature="e#940#941#0" expanded="false" />
+                <element signature="e#972#973#0" expanded="false" />
+                <element signature="e#1000#1001#0" expanded="false" />
+                <element signature="e#1033#1034#0" expanded="false" />
+                <element signature="e#1062#1063#0" expanded="false" />
+                <element signature="e#1097#1098#0" expanded="false" />
+                <element signature="e#1127#1128#0" expanded="false" />
+                <element signature="e#1175#1176#0" expanded="false" />
+                <element signature="e#1217#1218#0" expanded="false" />
+                <element signature="e#1261#1262#0" expanded="false" />
+                <element signature="e#1299#1300#0" expanded="false" />
+                <element signature="e#1341#1342#0" expanded="false" />
+                <element signature="e#1375#1376#0" expanded="false" />
+                <element signature="e#1419#1420#0" expanded="false" />
+                <element signature="e#1455#1456#0" expanded="false" />
+                <element signature="e#1502#1503#0" expanded="false" />
+                <element signature="e#1540#1541#0" expanded="false" />
+                <element signature="e#1571#1572#0" expanded="false" />
+                <element signature="e#1599#1600#0" expanded="false" />
+                <element signature="e#1640#1641#0" expanded="false" />
+                <element signature="e#1674#1675#0" expanded="false" />
+                <element signature="e#1724#1725#0" expanded="false" />
+                <element signature="e#1753#1754#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -847,7 +72,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -857,7 +84,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -865,8 +94,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -911,7 +140,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2893#2894#0" expanded="false" />
+                <element signature="e#2921#2922#0" expanded="false" />
+                <element signature="e#2978#2979#0" expanded="false" />
+                <element signature="e#3012#3013#0" expanded="false" />
+                <element signature="e#3053#3054#0" expanded="false" />
+                <element signature="e#3081#3082#0" expanded="false" />
+                <element signature="e#3132#3133#0" expanded="false" />
+                <element signature="e#3166#3167#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -943,7 +182,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1705#1706#0" expanded="false" />
+                <element signature="e#1742#1743#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -953,7 +196,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#406#407#0" expanded="false" />
+                <element signature="e#433#434#0" expanded="false" />
+                <element signature="e#473#474#0" expanded="false" />
+                <element signature="e#505#506#0" expanded="false" />
+                <element signature="e#564#565#0" expanded="false" />
+                <element signature="e#600#601#0" expanded="false" />
+                <element signature="e#661#662#0" expanded="false" />
+                <element signature="e#699#700#0" expanded="false" />
+                <element signature="e#748#749#0" expanded="false" />
+                <element signature="e#778#779#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1080,6 +335,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1343,8 +600,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1656,12 +911,13 @@
       <workItem from="1512691799971" duration="3229000" />
       <workItem from="1514073735185" duration="102000" />
       <workItem from="1520891176024" duration="173000" />
-      <workItem from="1520904391183" duration="76000" />
+      <workItem from="1520904391183" duration="149000" />
+      <workItem from="1520904817377" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90910000" />
+    <option name="totallyTimeSpent" value="91249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1673,8 +929,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1686,13 +942,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2030,7 +1286,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#699#700#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2056,7 +1324,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1742#1743#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2082,7 +1354,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2893#2894#0" expanded="false" />
+            <element signature="e#2921#2922#0" expanded="false" />
+            <element signature="e#2978#2979#0" expanded="false" />
+            <element signature="e#3012#3013#0" expanded="false" />
+            <element signature="e#3053#3054#0" expanded="false" />
+            <element signature="e#3081#3082#0" expanded="false" />
+            <element signature="e#3132#3133#0" expanded="false" />
+            <element signature="e#3166#3167#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2090,7 +1372,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#696#697#0" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#846#847#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+            <element signature="e#910#911#0" expanded="false" />
+            <element signature="e#940#941#0" expanded="false" />
+            <element signature="e#972#973#0" expanded="false" />
+            <element signature="e#1000#1001#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="false" />
+            <element signature="e#1062#1063#0" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+            <element signature="e#1127#1128#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1419#1420#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
+            <element signature="e#1502#1503#0" expanded="false" />
+            <element signature="e#1540#1541#0" expanded="false" />
+            <element signature="e#1571#1572#0" expanded="false" />
+            <element signature="e#1599#1600#0" expanded="false" />
+            <element signature="e#1640#1641#0" expanded="false" />
+            <element signature="e#1674#1675#0" expanded="false" />
+            <element signature="e#1724#1725#0" expanded="false" />
+            <element signature="e#1753#1754#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2098,7 +1412,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2106,7 +1422,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2135,8 +1453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
