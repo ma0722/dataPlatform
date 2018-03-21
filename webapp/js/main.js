@@ -8,7 +8,8 @@ $(document).ready(function(){
     scene.background = './img/bg.jpg';
     // scene.background = './img/a.png';
 
-    text = "点击节点可连线(连个节点)";
+    // text = "点击节点可连线(连个节点)";
+    text = "";
     var msgNode = new JTopo.TextNode(text);
     msgNode.fontColor = fontColor;
     msgNode.dragable = false;
@@ -45,9 +46,9 @@ $(document).ready(function(){
             $("#parameterTable").append(
                 $(
                     '<tr>' +
-                    '<td>' + key + '</td>' +
-                    '<td>' + ele.type + '</td>' +
-                    '<td>' + '<input type="text" style="width:60px;"value=' + ele.val + '></td>' +
+                    '<td class="">' + key + '</td>' +
+                    '<td class="">' + ele.type + '</td>' +
+                    '<td>' + '<input type="text"  class="form-control" style="width:60px;"value=' + ele.val + '></td>' +
                     '</tr>'
                 )
             )
@@ -75,7 +76,7 @@ $(document).ready(function(){
         $.getJSON("component.json").done(function(data){
             componentData = data;
             for(var key in componentData){
-                ele = $('<input type="button" class="btn btn-info" value=""/>');
+                ele = $('<input type="button" class="btn btn-info" value=""/><br/>');
                 ele.val(key);
                 component_count[key] = 1;
                 ele.click(function(event) {
@@ -84,7 +85,7 @@ $(document).ready(function(){
                         fill_table(name, componentData[value]);
                         var node = new JTopo.Node(name);
                         node.setImage("./img/component.png");
-                        node.setSize(40, 40);
+                        node.setSize(60, 60);
                         node.fontColor = fontColor;
                         component_count[value] += 1;
                         node.addEventListener('mouseup', function (event) {

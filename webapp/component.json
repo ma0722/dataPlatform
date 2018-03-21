@@ -20,23 +20,6 @@
     "output" : {"data" : true}
   },
 
-  "DataSplit" : {
-    "name": "DataSplit",
-    "class" : "compontent.data.DataSplit",
-    "description": "将数据集合分为训练数据，测试数据",
-    "version": "1.0",
-    "created_time": "2016.9.30",
-    "owner": "machao",
-    "parameters": {
-      "trainingDataSize" : {
-        "type": "double",
-        "val": "0.7"
-      }
-    },
-    "input" : {"data" : true},
-    "output" : {"trainingData" : true, "testData" : true}
-  },
-
   "LogisticsRegression" :  {
     "name" : "LogisticsRegression",
     "class" : "compontent.model.classification.LogisticRegressionC",
@@ -61,6 +44,14 @@
         "type": "double",
         "val": "0.1"
       },
+      "features" : {
+              "type": "String",
+              "val": "0.1"
+            },
+      "label" : {
+                    "type": "String",
+                    "val": "0.1"
+              },
       "savePath" : {
         "type": "double",
         "val": "null"
@@ -70,6 +61,44 @@
     "input" : {"data" : true},
     "output" : {"model" : true}
   },
+
+   "DecisionTree" :  {
+      "name" : "DecisionTree",
+      "class" : "compontent.model.classification.DecisionTreeC",
+      "description" : "决策树模型",
+      "version" : "1.0",
+      "created_time" : "2017.9.30",
+      "owner" : "12345678@qq.com",
+      "parameters" : {
+        "maxDepth": {
+          "type": "int",
+          "val": ""
+        },
+        "maxBins" : {
+          "type": "int",
+          "val": ""
+        },
+        "minInfoGain" : {
+          "type": "double",
+          "val": ""
+        },
+        "features" : {
+                "type": "String",
+                "val": ""
+              },
+        "label" : {
+                      "type": "String",
+                      "val": ""
+                },
+        "savePath" : {
+          "type": "String",
+          "val": ""
+        }
+      }
+    ,
+      "input" : {"data" : true},
+      "output" : {"model" : true}
+    },
 
   "Kmeans" :  {
     "name" : "Kmeans",
@@ -81,32 +110,68 @@
     "parameters" : {
       "K": {
         "type": "Int",
-        "val": "10"
+        "val": ""
       },
       "seed" : {
         "type": "long",
-        "val": "0.2"
+        "val": ""
       },
       "initSteps" : {
         "type": "int",
-        "val": "100"
+        "val": ""
+      },
+      "maxIter" : {
+        "type": "int",
+        "val": ""
       },
       "tol" : {
         "type": "double",
-        "val": "0.1"
+        "val": ""
       },
       "savePath" : {
         "type": "String",
-        "val": "logisticsRegressionModel"
+        "val": ""
       }
-    }
-  ,
+    },
     "input" : {"data" : true},
     "output" : {"model" : true, "vectors" : true}
   },
 
-  "Ngram" :  {
-    "name" : "Ngram",
+  "GMM" :  {
+      "name" : "GMM",
+      "class" : "compontent.model.cluster.GMMC",
+      "description" : "高斯混合模型聚类算法",
+      "version" : "1.0",
+      "created_time" : "2017.9.30",
+      "owner" : "12345678@qq.com",
+      "parameters" : {
+        "K": {
+          "type": "Int",
+          "val": ""
+        },
+        "seed" : {
+          "type": "long",
+          "val": ""
+        },
+        "maxIter" : {
+          "type": "int",
+          "val": ""
+        },
+        "tol" : {
+          "type": "double",
+          "val": ""
+        },
+        "savePath" : {
+          "type": "String",
+          "val": ""
+        }
+      },
+      "input" : {"data" : true},
+      "output" : {"model" : true}
+    },
+
+  "Bag-of-Words" :  {
+    "name" : "Bag-of-Words",
     "class" : "compontent.model.transformer.Ngram",
     "description" : "N-gram算法，计算N-gram特征",
     "version" : "1.0",
@@ -114,7 +179,7 @@
     "owner" : "12345678@qq.com",
     "parameters" : {
       "N": {
-        "type": "Int",
+        "type": "int",
         "val": "3"
       },
       "inputCol" : {
@@ -131,39 +196,68 @@
     "output" : {"data" : true}
   },
 
-  "MysqlData" :  {
-    "name" : "MysqlData",
-    "class" : "compontent.model.data.MysqlData",
-    "description" : "读取Mysql上的数据",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
-      "ip": {
-        "type": "String",
-        "val": ""
-      },"port": {
-        "type": "int",
-        "val": ""
-      },"databases": {
-        "type": "String",
-        "val": ""
-      },"username": {
-        "type": "String",
-        "val": ""
-      },"password": {
-        "type": "String",
-        "val": ""
+  "Tokenizer" :  {
+        "name" : "Tokenizer",
+        "class" : "compontent.model.extractor.Tokenizer",
+        "description" : "中文分词",
+        "version" : "1.0",
+        "created_time" : "2017.9.30",
+        "owner" : "12345678@qq.com",
+        "parameters" : {
+          "dictPath" : {
+            "type": "String",
+            "val": ""
+          },
+          "stopwordsPath" : {
+            "type": "String",
+            "val": ""
+          },
+          "inputCol" : {
+                      "type": "String",
+                      "val": ""
+                    },
+          "outputCol" : {
+                           "type": "String",
+                            "val": ""
+                          }
+        }
+      ,
+        "input" : {"data" : true},
+        "output" : {"data" : true}
       },
-      "sql" : {
-        "type": "String",
-        "val": ""
-      }
-    }
-  ,
-    "input" : {"none" : false},
-    "output" : {"data" : true}
-  }
 
+  "MysqlData" :  {
+      "name" : "MysqlData",
+      "class" : "compontent.model.data.MysqlData",
+      "description" : "读取Mysql上的数据",
+      "version" : "1.0",
+      "created_time" : "2017.9.30",
+      "owner" : "12345678@qq.com",
+      "parameters" : {
+        "ip": {
+          "type": "String",
+          "val": ""
+        },"port": {
+          "type": "int",
+          "val": ""
+        },"databases": {
+          "type": "String",
+          "val": ""
+        },"username": {
+          "type": "String",
+          "val": ""
+        },"password": {
+          "type": "String",
+          "val": ""
+        },
+        "sql" : {
+          "type": "String",
+          "val": ""
+        }
+      }
+    ,
+      "input" : {"none" : false},
+      "output" : {"data" : true}
+    }
 
 }

@@ -1,6 +1,5 @@
 package compontent.model.cluster;
 
-import com.sun.javafx.geom.Vec2d;
 import compontent.Component;
 import org.apache.spark.ml.clustering.KMeans;
 import org.apache.spark.ml.clustering.KMeansModel;
@@ -8,6 +7,8 @@ import org.apache.spark.ml.linalg.Vector;
 import org.apache.spark.sql.Dataset;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
+import util.SparkUtil;
 
 import java.io.IOException;
 
@@ -50,6 +51,16 @@ public class KmeansC extends Component {
     public void save() throws IOException {
         model_.save(path);
     }
-
-
+    
+    
+    @Test
+    public void test() throws Exception{
+        this.path = "/mode/Kmeans";
+        Dataset dataset =  SparkUtil.readFromHDFS("/data/sample_cluster_data.txt", "libsvm");
+        model_ = model.fit(dataset);
+        if(path != null && !path.equals("")){
+//            save();
+            System.out.println("model saved success on " + this.path);
+        }
+    }
 }

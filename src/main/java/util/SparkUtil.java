@@ -3,6 +3,8 @@ package util;
 
 import org.apache.ivy.util.StringUtils;
 import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.ml.feature.RFormula;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
@@ -29,6 +31,7 @@ public class SparkUtil {
             String port = properties.getProperty("spark_port");
             SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
             spark = SparkSession.builder().config(conf).getOrCreate();
+//            spark.sparkContext().addJar("jars/mysql-connector-java-5.1.46.jar");
         }catch (Exception e) {
             e.printStackTrace();
         }

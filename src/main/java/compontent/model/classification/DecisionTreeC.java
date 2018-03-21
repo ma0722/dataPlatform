@@ -6,6 +6,8 @@ import org.apache.spark.ml.classification.DecisionTreeClassificationModel;
 import org.apache.spark.sql.Dataset;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.junit.Test;
+import util.SparkUtil;
 
 import java.io.IOException;
 
@@ -49,5 +51,15 @@ public class DecisionTreeC extends Component {
     public void save() throws IOException {
         model_.save(path);
     }
-
+    
+    @Test
+    public void test() throws Exception{
+        Dataset dataset =  SparkUtil.readFromHDFS("/data/sample_binary_classification_data.txt", "libsvm");
+        this.path = "/model/decisionTree";
+        this.model_ = model.fit(dataset);
+        if(path != null && !path.equals("")){
+//            save();
+            System.out.println("model saved success on " + this.path);
+        }
+    }
 }

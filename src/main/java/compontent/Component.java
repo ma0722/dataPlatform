@@ -3,9 +3,10 @@ package compontent;
 import Base.Edge;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public abstract class Component {
+public abstract class Component implements Serializable{
 
     protected String name;
     protected HashMap<String, Edge> inputs;
