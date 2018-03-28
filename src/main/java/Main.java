@@ -1,5 +1,4 @@
 import Base.Graph;
-import compontent.data.MysqlData;
 import org.json.JSONObject;
 import util.JSONUtil;
 

@@ -1,6 +1,6 @@
 package Base;
 
-import compontent.Component;
+import component.Component;
 import org.json.JSONObject;
 import util.ComponentUtil;
 

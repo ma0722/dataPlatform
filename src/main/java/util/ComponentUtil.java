@@ -1,12 +1,11 @@
 package util;
 
-import compontent.Component;
+import component.Component;
 import org.json.JSONObject;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Iterator;
-
 
 public class ComponentUtil {
 
@@ -16,7 +15,7 @@ public class ComponentUtil {
         componentPath = new HashMap<String, String>();
         try{
 
-            JSONObject componentInfo = JSONUtil.jsonRead("src/main/resources/component.json");
+            JSONObject componentInfo = JSONUtil.jsonRead("src/main/resources/static/component.json");
             Iterator iterator = componentInfo.keys();
             while(iterator.hasNext()){
                 String key = (String)iterator.next();
