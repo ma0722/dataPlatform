@@ -2,125 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ce487d-e2b2-49ea-b10f-2af5c3d532bf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/light/springboot/SpringbootApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_10_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/Component.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/data/DataSplit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/data/HDFSData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/data/LocalData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/data/MysqlData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/CounterVector$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/CounterVector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/TF_IDF$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/TF_IDF.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/TokenizerC$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/TokenizerC$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/TokenizerC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/extractor/WordToVec.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/transformer/Ngram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/feature/transformer/StopWordsRemoverC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/DecisionTreeC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/GBDTC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/LogisticRegressionC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/NaiveBayesC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/OneVsRestC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/classification/RandomForestC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/cluster/B_KmeansC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/cluster/GMMC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/cluster/KmeansC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/cluster/LDAC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/estimate/BinaryClassificationEvaluatorC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/compontent/model/estimate/MutClassificationEvaluatorC.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/Component.java" afterPath="$PROJECT_DIR$/src/main/java/component/Component.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/data/DataSplit.java" afterPath="$PROJECT_DIR$/src/main/java/component/data/DataSplit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/data/HDFSData.java" afterPath="$PROJECT_DIR$/src/main/java/component/data/HDFSData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/data/LocalData.java" afterPath="$PROJECT_DIR$/src/main/java/component/data/LocalData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/data/MysqlData.java" afterPath="$PROJECT_DIR$/src/main/java/component/data/MysqlData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/CounterVector.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/TF_IDF.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/TF_IDF.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/TokenizerC.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/TokenizerC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/WordToVec.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/transformer/Ngram.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/transformer/Ngram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/feature/transformer/StopWordsRemoverC.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/transformer/StopWordsRemoverC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/DecisionTreeC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/DecisionTreeC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/GBDTC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/GBDTC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/LogisticRegressionC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/LogisticRegressionC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/NaiveBayesC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/NaiveBayesC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/OneVsRestC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/OneVsRestC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/classification/RandomForestC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/classification/RandomForestC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/B_KmeansC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/cluster/B_KmeansC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/GMMC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/cluster/GMMC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/KmeansC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/cluster/KmeansC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/cluster/LDAC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/cluster/LDAC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/estimate/BinaryClassificationEvaluatorC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/estimate/BinaryClassificationEvaluatorC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/compontent/model/estimate/MutClassificationEvaluatorC.java" afterPath="$PROJECT_DIR$/src/main/java/component/model/estimate/MutClassificationEvaluatorC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/component.json" afterPath="$PROJECT_DIR$/src/main/resources/static/component.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/css/jquery.snippet.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/jquery.snippet.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/img/bg.jpg" afterPath="$PROJECT_DIR$/src/main/resources/static/img/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/img/component.png" afterPath="$PROJECT_DIR$/src/main/resources/static/img/component.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/jquery.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/jquery.snippet.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/jquery.snippet.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/jtopo-0.4.8-min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/jtopo-0.4.8-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/jtopo-min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/jtopo-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/lib/toolbar.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/lib/toolbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/js/main.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webapp/main.html" afterPath="$PROJECT_DIR$/src/main/resources/static/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Base/Edge.class" afterPath="$PROJECT_DIR$/target/classes/Base/Edge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Base/Graph.class" afterPath="$PROJECT_DIR$/target/classes/Base/Graph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Base/Node.class" afterPath="$PROJECT_DIR$/target/classes/Base/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/ComponentUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/ComponentUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/HDFSFileUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/HDFSFileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/JSONUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/JSONUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/SparkUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/SparkUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-platform.iml" afterPath="$PROJECT_DIR$/data-platform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Base/Node.java" afterPath="$PROJECT_DIR$/src/main/java/Base/Node.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Base/Graph.java" afterPath="$PROJECT_DIR$/src/main/java/Base/Graph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java" afterPath="$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/ComponentUtil.java" afterPath="$PROJECT_DIR$/src/main/java/util/ComponentUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
     </list>
     <ignored path="data-platform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,74 +31,165 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="KmeansC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/component/model/cluster/KmeansC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+              <folding>
+                <element signature="e#713#796#0" expanded="true" />
+                <element signature="e#713#796#0" expanded="true" />
+                <element signature="e#758#795#0" expanded="true" />
+                <element signature="e#758#795#0" expanded="true" />
+                <element signature="e#805#895#0" expanded="true" />
+                <element signature="e#805#895#0" expanded="true" />
+                <element signature="e#1063#1157#0" expanded="true" />
+                <element signature="e#1063#1157#0" expanded="true" />
+                <element signature="e#1166#1270#0" expanded="true" />
+                <element signature="e#1166#1270#0" expanded="true" />
+                <element signature="e#1205#1269#0" expanded="true" />
+                <element signature="e#1205#1269#0" expanded="true" />
+                <element signature="e#1279#1397#0" expanded="true" />
+                <element signature="e#1279#1397#0" expanded="true" />
+                <element signature="e#1323#1396#0" expanded="true" />
+                <element signature="e#1323#1396#0" expanded="true" />
+                <element signature="e#1406#1518#0" expanded="true" />
+                <element signature="e#1406#1518#0" expanded="true" />
+                <element signature="e#1527#1630#0" expanded="true" />
+                <element signature="e#1527#1630#0" expanded="true" />
+                <element signature="e#2071#2211#0" expanded="true" />
+                <element signature="e#2090#2106#0" expanded="true" />
+                <element signature="e#2090#2106#0" expanded="true" />
+                <element signature="e#2090#2106#0" expanded="true" />
+                <element signature="e#2071#2211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/cluster.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4020">
+              <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="269" selection-end-column="31" />
+              <folding>
+                <marker date="1522227527599" expanded="true" signature="1585:1596" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mongo.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mongo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="327">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#915#960#1" expanded="true" />
-                <element signature="e#969#1010#1" expanded="true" />
-                <element signature="e#1020#1062#1" expanded="true" />
+                <element signature="e#915#961#1" expanded="true" />
+                <element signature="e#970#1011#1" expanded="true" />
+                <element signature="e#1021#1064#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bag0fWordsC.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java">
+      <file leaf-file-name="a.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/a.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
-              <folding>
-                <element signature="e#2037#2101#1" expanded="true" />
-                <element signature="e#2632#3141#0" expanded="true" />
-                <element signature="e#3140#3141#0" expanded="true" />
-                <element signature="e#3596#3625#1" expanded="true" />
-                <element signature="e#3634#3667#0" expanded="true" />
-                <element signature="e#3634#3667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordToVec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Base/Graph.java">
+      <file leaf-file-name="b.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/b.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/SpringbootApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#802#845#0" expanded="true" />
-                <element signature="e#802#845#0" expanded="true" />
-                <element signature="e#802#845#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/component.json">
+      <file leaf-file-name="Bag0fWordsC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1740">
-              <caret line="175" column="34" selection-start-line="175" selection-start-column="34" selection-end-line="175" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
-                <element signature="n#!!block;n#ReadHDFSData#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#LogisticsRegression#0;n#!!top" expanded="false" />
+                <element signature="e#802#852#1" expanded="true" />
+                <element signature="e#820#838#0" expanded="true" />
+                <element signature="e#820#838#0" expanded="true" />
+                <element signature="e#820#851#0" expanded="true" />
+                <element signature="e#861#1112#0" expanded="true" />
+                <element signature="e#861#1112#0" expanded="true" />
+                <element signature="e#1170#1251#0" expanded="true" />
+                <element signature="e#1170#1251#0" expanded="true" />
+                <element signature="e#1214#1233#0" expanded="true" />
+                <element signature="e#1214#1233#0" expanded="true" />
+                <element signature="e#1214#1250#0" expanded="true" />
+                <element signature="e#1214#1250#0" expanded="true" />
+                <element signature="e#2037#2101#1" expanded="true" />
+                <element signature="e#2631#3140#0" expanded="true" />
+                <element signature="e#3139#3140#0" expanded="true" />
+                <element signature="e#3595#3624#1" expanded="true" />
+                <element signature="e#3633#3666#0" expanded="true" />
+                <element signature="e#3633#3666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Base/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#397#430#1" expanded="true" />
+                <element signature="e#551#571#0" expanded="true" />
+                <element signature="e#582#617#0" expanded="true" />
+                <element signature="e#582#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -239,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/compontent/model/classification/Mu.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/model/classification/GBDTC.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/model/classification/NaiveBayesC.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/model/classification/RandomForestC.java" />
@@ -259,9 +236,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/model/cluster/B_KmeansC.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/data/LocalData.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/b.json" />
         <option value="$PROJECT_DIR$/src/main/resources/a.json" />
-        <option value="$PROJECT_DIR$/src/main/java/Base/Node.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cluster.properties" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/data/HDFSData.java" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/model/classification/LogisticRegressionC.java" />
@@ -283,13 +258,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/main.html" />
         <option value="$PROJECT_DIR$/src/main/java/compontent/feature/extractor/Bag0fWordsC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Base/Graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/resources/component.json" />
-        <option value="$PROJECT_DIR$/src/main/java/util/ComponentUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/component.json" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ComponentUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Base/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Base/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/b.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -340,7 +318,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,6 +379,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -425,7 +521,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
+              <option name="myItemId" value="springboot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,49 +547,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
+              <option name="myItemId" value="springboot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transformer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data-platform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataPlatform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="component" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extractor" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1356,7 +1414,7 @@
       <workItem from="1521558847573" duration="318000" />
       <workItem from="1521585781979" duration="756000" />
       <workItem from="1521799618294" duration="252000" />
-      <workItem from="1522207438795" duration="6323000" />
+      <workItem from="1522207438795" duration="9864000" />
     </task>
     <servers />
   </component>
@@ -1393,7 +1451,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127896000" />
+    <option name="totallyTimeSpent" value="131437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1425,10 +1483,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39178082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3890411" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41917807" sideWeight="0.49676898" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28029078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19709209" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1618,20 +1676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/b.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/a.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1640,13 +1684,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/path.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mongo.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1662,20 +1699,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.0/spark-sql_2.11-2.0.0.jar!/org/apache/spark/sql/SparkSession.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.0.0/spark-core_2.11-2.0.0.jar!/org/apache/spark/SparkContext.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cluster.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/MongoUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/component/model/classification/DecisionTreeC.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1726,13 +1749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/component/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1751,16 +1767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/component/model/cluster/KmeansC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1796,26 +1802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/SpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="145" column="17" selection-start-line="145" selection-start-column="17" selection-end-line="145" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1846,26 +1832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="286" column="7" selection-start-line="267" selection-start-column="4" selection-end-line="286" selection-end-column="7" />
-          <folding>
-            <marker date="1522212479218" expanded="true" signature="1585:1596" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Base/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#551#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/component.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1884,17 +1850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ComponentUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#896#957#0" expanded="true" />
-            <element signature="e#896#957#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/component/model/classification/LogisticRegressionC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1906,65 +1861,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/component.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="175" column="34" selection-start-line="175" selection-start-column="34" selection-end-line="175" selection-end-column="34" />
+        <state relative-caret-position="1860">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ComponentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <element signature="n#!!block;n#ReadHDFSData#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#LogisticsRegression#0;n#!!top" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1091#1113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="31" column="29" selection-start-line="28" selection-start-column="7" selection-end-line="31" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Base/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="372">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
+            <element signature="e#663#730#1" expanded="true" />
+            <element signature="e#743#789#1" expanded="true" />
             <element signature="e#802#845#0" expanded="true" />
             <element signature="e#802#845#0" expanded="true" />
             <element signature="e#802#845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#915#960#1" expanded="true" />
-            <element signature="e#969#1010#1" expanded="true" />
-            <element signature="e#1020#1062#1" expanded="true" />
+            <element signature="e#907#1448#0" expanded="true" />
+            <element signature="e#907#1448#0" expanded="true" />
+            <element signature="e#998#1044#1" expanded="true" />
+            <element signature="e#1057#1101#1" expanded="true" />
+            <element signature="e#1347#1369#0" expanded="true" />
+            <element signature="e#1347#1386#0" expanded="true" />
+            <element signature="e#1347#1386#0" expanded="true" />
+            <element signature="e#1347#1386#0" expanded="true" />
+            <element signature="e#1400#1419#0" expanded="true" />
+            <element signature="e#1637#1702#0" expanded="true" />
+            <element signature="e#1642#1651#0" expanded="true" />
+            <element signature="e#1637#1702#0" expanded="true" />
+            <element signature="method#Toposort#0;class#Graph#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/component/feature/extractor/WordToVec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#645#725#0" expanded="true" />
+            <element signature="e#645#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/component/feature/extractor/Bag0fWordsC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+        <state relative-caret-position="330">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
+            <element signature="e#802#852#1" expanded="true" />
+            <element signature="e#820#838#0" expanded="true" />
+            <element signature="e#820#838#0" expanded="true" />
+            <element signature="e#820#851#0" expanded="true" />
+            <element signature="e#861#1112#0" expanded="true" />
+            <element signature="e#861#1112#0" expanded="true" />
+            <element signature="e#1170#1251#0" expanded="true" />
+            <element signature="e#1170#1251#0" expanded="true" />
+            <element signature="e#1214#1233#0" expanded="true" />
+            <element signature="e#1214#1233#0" expanded="true" />
+            <element signature="e#1214#1250#0" expanded="true" />
+            <element signature="e#1214#1250#0" expanded="true" />
             <element signature="e#2037#2101#1" expanded="true" />
-            <element signature="e#2632#3141#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3596#3625#1" expanded="true" />
-            <element signature="e#3634#3667#0" expanded="true" />
-            <element signature="e#3634#3667#0" expanded="true" />
+            <element signature="e#2631#3140#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
+            <element signature="e#3595#3624#1" expanded="true" />
+            <element signature="e#3633#3666#0" expanded="true" />
+            <element signature="e#3633#3666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Base/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#430#1" expanded="true" />
+            <element signature="e#551#571#0" expanded="true" />
+            <element signature="e#582#617#0" expanded="true" />
+            <element signature="e#582#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/SpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/component.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!block;n#LogisticsRegression#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/b.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/a.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/light/springboot/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#915#961#1" expanded="true" />
+            <element signature="e#970#1011#1" expanded="true" />
+            <element signature="e#1021#1064#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/component/model/cluster/KmeansC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="e#713#796#0" expanded="true" />
+            <element signature="e#713#796#0" expanded="true" />
+            <element signature="e#758#795#0" expanded="true" />
+            <element signature="e#758#795#0" expanded="true" />
+            <element signature="e#805#895#0" expanded="true" />
+            <element signature="e#805#895#0" expanded="true" />
+            <element signature="e#1063#1157#0" expanded="true" />
+            <element signature="e#1063#1157#0" expanded="true" />
+            <element signature="e#1166#1270#0" expanded="true" />
+            <element signature="e#1166#1270#0" expanded="true" />
+            <element signature="e#1205#1269#0" expanded="true" />
+            <element signature="e#1205#1269#0" expanded="true" />
+            <element signature="e#1279#1397#0" expanded="true" />
+            <element signature="e#1279#1397#0" expanded="true" />
+            <element signature="e#1323#1396#0" expanded="true" />
+            <element signature="e#1323#1396#0" expanded="true" />
+            <element signature="e#1406#1518#0" expanded="true" />
+            <element signature="e#1406#1518#0" expanded="true" />
+            <element signature="e#1527#1630#0" expanded="true" />
+            <element signature="e#1527#1630#0" expanded="true" />
+            <element signature="e#2071#2211#0" expanded="true" />
+            <element signature="e#2090#2106#0" expanded="true" />
+            <element signature="e#2090#2106#0" expanded="true" />
+            <element signature="e#2090#2106#0" expanded="true" />
+            <element signature="e#2071#2211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mongo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cluster.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4020">
+          <caret line="268" column="0" selection-start-line="268" selection-start-column="0" selection-end-line="269" selection-end-column="31" />
+          <folding>
+            <marker date="1522227527599" expanded="true" signature="1585:1596" placeholder="..." />
           </folding>
         </state>
       </provider>

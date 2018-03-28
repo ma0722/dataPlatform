@@ -30,8 +30,8 @@ public class ComponentUtil {
     static public Component generateComponent(String type) throws Exception{
         if(!componentPath.containsKey(type))
             return null;
-        String name = componentPath.get(type);
-        Class clazz = Class.forName(name);
+        String classPath= componentPath.get(type);
+        Class clazz = Class.forName(classPath);
         Constructor constructor = clazz.getConstructor();
         return (Component) constructor.newInstance();
     }

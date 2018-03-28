@@ -35,10 +35,10 @@ public class MainController {
 
         System.out.print(nodes);
         System.out.print(links);
-        JSONObject componets = new JSONObject(nodes);
+        JSONObject components = new JSONObject(nodes);
         JSONObject edges = new JSONObject(links);
 
-        Graph graph = new Graph(componets, edges);
+        Graph graph = new Graph(components, edges);
         graph.run();
         return "success";
     }

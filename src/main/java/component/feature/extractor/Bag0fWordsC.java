@@ -60,7 +60,6 @@ public class Bag0fWordsC extends Component{
         String url = String.format("jdbc:mysql://%s:%d/%s", "10.109.247.63", 3306, "db_weibo");
         reader.option("url",url);
         reader.option("dbtable", "(SELECT weibo_content from weibo_original limit 30) as tmp");
-
         reader.option("driver","com.mysql.jdbc.Driver");
         reader.option("user", "root");
         reader.option("password", "hadoop");
@@ -84,10 +83,10 @@ public class Bag0fWordsC extends Component{
             }
         }, encoder);
         data.show();
-
         tokenizer.setInputCol("value").setOutputCol("new_value");
         Dataset wordsData = tokenizer.transform(data);
         wordsData.show();
+
         model = new CountVectorizer()
                 .setInputCol("new_value")
                 .setOutputCol("features")

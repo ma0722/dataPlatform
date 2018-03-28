@@ -16,10 +16,15 @@ public class WordToVec extends Component {
 
     public void run() throws Exception {
         Dataset dataset = inputs.get("data").getDataset();
+
+
         model_ = model.fit(dataset);
+
+
         if(outputs.containsKey("model"))
             outputs.get("model").setModel(model_);
         Dataset out = model_.transform(dataset);
+
         if(outputs.containsKey("data"))
             outputs.get("data").setDataset(out);
     }

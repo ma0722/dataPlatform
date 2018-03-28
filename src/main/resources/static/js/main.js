@@ -268,7 +268,7 @@ $(document).ready(function(){
     $("#run").click(function () {
         console.log(node_info);
         console.log(link_info);
-        var links = {}
+        var links = {};
         for (var item in link_info) {
             links[item] = {'input': link_info[item]['input'],'output': link_info[item]['output']}
         }

@@ -29,8 +29,8 @@ public class Graph {
         iterator = edgeJsonObject.keys();
         while (iterator.hasNext()) {
             String key = (String)iterator.next();
-            Node startNode = nodes.get(key.split(":")[0].split("_")[0]);
-            Node endNode = nodes.get(key.split(":")[1].split("_")[0]);
+            Node startNode = nodes.get(key.split(":")[0]);
+            Node endNode = nodes.get(key.split(":")[1]);
             String input = edgeJsonObject.getJSONObject(key).getString("input");
             String output = edgeJsonObject.getJSONObject(key).getString("output");
             Edge edge = new Edge(startNode, endNode, input, output);
