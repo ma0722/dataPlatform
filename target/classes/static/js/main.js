@@ -256,9 +256,9 @@ $(document).ready(function(){
         for (var i = 1; i < tableObj.rows.length; i++) {
             parameters[tableObj.rows[i].cells[0].innerText] = {
                 "type": tableObj.rows[i].cells[1].innerText,
-                "val": $(tableObj.rows[i].cells[2]).children().val()
+                "value": $(tableObj.rows[i].cells[2]).children().val()
             }
-        }
+        };
         if(currentNode != null) {
             node_info[currentNode.text]["parameters"] = parameters;
         }
@@ -268,7 +268,7 @@ $(document).ready(function(){
     $("#run").click(function () {
         console.log(node_info);
         console.log(link_info);
-        var links = {}
+        var links = {};
         for (var item in link_info) {
             links[item] = {'input': link_info[item]['input'],'output': link_info[item]['output']}
         }

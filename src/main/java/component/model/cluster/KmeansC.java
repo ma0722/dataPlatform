@@ -20,6 +20,7 @@ public class KmeansC extends Component {
     private String path;
 
 
+
     public void run() throws Exception {
         Dataset dataset = inputs.get("data").getDataset();
         model_ = model.fit(dataset);
@@ -46,6 +47,8 @@ public class KmeansC extends Component {
             model.setTol(parameters.getJSONObject("tol").getDouble("value"));
         if(parameters.has("savePath"))
             this.path = parameters.getJSONObject("savePath").getString("value");
+        if(parameters.has("features"))
+            model.setFeaturesCol(parameters.getJSONObject("features").getString("value"));
     }
 
     public void save() throws IOException {

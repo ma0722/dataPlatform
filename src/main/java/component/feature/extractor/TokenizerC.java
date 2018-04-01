@@ -21,6 +21,7 @@ public class TokenizerC extends Component implements Serializable{
 
     private StopRecognition filter = new StopRecognition();
     private String inputCol;
+    private String outputCol;
 
     public void run(){
 
@@ -51,6 +52,8 @@ public class TokenizerC extends Component implements Serializable{
             StopLibrary.put("stop", parameters.getJSONObject("dicPath").getString("value"));
         if(parameters.has("inputCol"))
             this.inputCol = parameters.getJSONObject("inputCol").getString("value");
+        if(parameters.has("outputCol"))
+            this.outputCol = parameters.getJSONObject("outputCol").getString("value");
     }
 
     @Test

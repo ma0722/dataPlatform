@@ -40,6 +40,8 @@ public class GMMC extends Component {
             model.setTol(parameters.getJSONObject("tol").getDouble("value"));
         if(parameters.has("savePath"))
             this.path = parameters.getJSONObject("savePath").getString("value");
+        if(parameters.has("features"))
+            model.setFeaturesCol(parameters.getJSONObject("features").getString("value"));
     }
 
     public void save() throws IOException {

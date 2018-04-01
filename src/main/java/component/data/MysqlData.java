@@ -21,9 +21,6 @@ public class MysqlData extends Component {
     public void run() throws  Exception {
 
         DataFrameReader reader = SparkUtil.spark.read().format("jdbc");
-//        SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
-//        SparkSession spark = SparkSession.builder().config(conf).getOrCreate();
-//        DataFrameReader reader = spark.read().format("jdbc") ;
         String url = String.format("jdbc:mysql://%s:%d/%s", ip, port, database);
         reader.option("url",url);
         reader.option("dbtable", sql);
@@ -32,12 +29,11 @@ public class MysqlData extends Component {
         reader.option("password", password);
 
         Dataset<Row> dataset = reader.load();
-        for (String v : dataset.columns())
-            System.out.println(v);
+//        for (String v : dataset.columns())
+//            System.out.println(v);
         dataset.show();
-//        dataset.collect();
-//        if(outputs.containsKey("vectors"))
-//            outputs.get("data").setDataset(dataset);
+        if(outputs.containsKey("data"))
+            outputs.get("data").setDataset(dataset);
 
     }
 

@@ -20,8 +20,9 @@ public class Node {
         String type = name.split("_")[0];
         System.out.println(type);
         component = ComponentUtil.generateComponent(type);
-        System.out.println(component.getClass());
+        System.out.println(String.format("========================%s copoment init succsess" , name));
         component.setParameters(parameters);
+        System.out.println(String.format("========================%s copoment setParameters succsess", name));
         inputs = new HashMap<String, Edge>();
         outputs = new HashMap<String, Edge>();
     }
@@ -30,6 +31,7 @@ public class Node {
         component.setInputs(inputs);
         component.setOutputs(outputs);
         component.run();
+        System.out.println(String.format("========================%s copoment run succsess", name));
         outputs = component.getOutputs();
     }
 

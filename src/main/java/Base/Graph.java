@@ -46,6 +46,7 @@ public class Graph {
         for (Node node: nodeToposort) {
             node.run();
         }
+
     }
 
 

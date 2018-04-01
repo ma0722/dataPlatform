@@ -1,263 +1,291 @@
 {
-  "ReadHDFSData" : {
+  "ReadHDFSData": {
     "name": "ReadHDFSData",
-    "class" : "component.data.HDFSData",
+    "class": "component.data.HDFSData",
     "description": "读取位于HDFS上的数据",
     "version": "1.0",
     "created_time": "2016.9.30",
     "owner": "machao",
     "parameters": {
-      "dataPath" : {
+      "dataPath": {
         "type": "String",
         "value": "libsvm"
       },
-      "dataFormat" : {
+      "dataFormat": {
         "type": "String",
         "value": "user.txt"
       }
     },
-    "input" : {"None" : false},
-    "output" : {"data" : true}
+    "input": {
+      "None": false
+    },
+    "output": {
+      "data": true
+    }
   },
-
-  "LogisticsRegression" :  {
-    "name" : "LogisticsRegression",
-    "class" : "component.model.classification.LogisticRegressionC",
-    "description" : "用于分类的逻辑回归模型",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
+  "LogisticsRegression": {
+    "name": "LogisticsRegression",
+    "class": "component.model.classification.LogisticRegressionC",
+    "description": "用于分类的逻辑回归模型",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
       "maxIter": {
         "type": "int",
         "value": 50
       },
-      "reg" : {
+      "reg": {
         "type": "double",
         "value": 0.2
       },
-      "elasticNet" : {
+      "elasticNet": {
         "type": "double",
         "value": 0.8
       },
-      "tol" : {
+      "tol": {
         "type": "double",
         "value": 0.1
       },
-      "features" : {
+      "features": {
         "type": "String",
         "value": "features"
       },
-      "label" : {
+      "label": {
         "type": "String",
         "value": "label"
       },
-      "savePath" : {
+      "savePath": {
         "type": "String",
         "value": "null"
       }
+    },
+    "input": {
+      "data": true
+    },
+    "output": {
+      "model": true
     }
-  ,
-    "input" : {"data" : true},
-    "output" : {"model" : true}
   },
-
-  "DecisionTree" :  {
-    "name" : "DecisionTree",
-    "class" : "component.model.classification.DecisionTreeC",
-    "description" : "决策树模型",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
+  "DecisionTree": {
+    "name": "DecisionTree",
+    "class": "component.model.classification.DecisionTreeC",
+    "description": "决策树模型",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
       "maxDepth": {
         "type": "int",
         "value": 0
       },
-      "maxBins" : {
+      "maxBins": {
         "type": "int",
         "value": 0
       },
-      "minInfoGain" : {
+      "minInfoGain": {
         "type": "double",
         "value": 0.1
       },
-      "features" : {
+      "features": {
         "type": "String",
-        "value": ""
+        "value": "features"
       },
-      "label" : {
+      "label": {
         "type": "String",
-        "value": ""
+        "value": "label"
       },
-      "savePath" : {
+      "savePath": {
         "type": "String",
-        "value": ""
+        "value": "null"
       }
+    },
+    "input": {
+      "data": true
+    },
+    "output": {
+      "model": true
     }
-  ,
-    "input" : {"data" : true},
-    "output" : {"model" : true}
   },
-
-  "Kmeans" :  {
-    "name" : "Kmeans",
-    "class" : "component.model.cluster.KmeansC",
-    "description" : "Kmeans聚类算法",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
+  "Kmeans": {
+    "name": "Kmeans",
+    "class": "component.model.cluster.KmeansC",
+    "description": "Kmeans聚类算法",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
       "K": {
         "type": "Int",
         "value": 3
       },
-      "seed" : {
+      "seed": {
         "type": "long",
         "value": 100
       },
-      "initSteps" : {
+      "initSteps": {
         "type": "int",
         "value": 10
       },
-      "maxIter" : {
+      "maxIter": {
         "type": "int",
         "value": 10
       },
-      "tol" : {
+      "tol": {
         "type": "double",
         "value": 0.1
       },
-      "savePath" : {
+      "features": {
         "type": "String",
-        "value": ""
+        "value": "features"
+      },
+      "savePath": {
+        "type": "String",
+        "value": "null"
       }
     },
-    "input" : {"data" : true},
-    "output" : {"model" : true, "vectors" : true}
+    "input": {
+      "data": true
+    },
+    "output": {
+      "model": true,
+      "vectors": true
+    }
   },
-
-  "GMM" :  {
-    "name" : "GMM",
-    "class" : "component.model.cluster.GMMC",
-    "description" : "高斯混合模型聚类算法",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
+  "GMM": {
+    "name": "GMM",
+    "class": "component.model.cluster.GMMC",
+    "description": "高斯混合模型聚类算法",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
       "K": {
         "type": "int",
         "value": 3
       },
-      "seed" : {
+      "seed": {
         "type": "long",
         "value": 100
       },
-      "maxIter" : {
+      "maxIter": {
         "type": "int",
         "value": 5
       },
-      "tol" : {
+      "tol": {
         "type": "double",
         "value": 0.1
       },
-      "savePath" : {
+      "features": {
         "type": "String",
-        "value": ""
+        "value": "features"
+      },
+      "savePath": {
+        "type": "String",
+        "value": "null"
       }
     },
-    "input" : {"data" : true},
-    "output" : {"model" : true}
-  },
-
-  "Bag-of-Words" :  {
-    "name" : "Bag-of-Words",
-    "class" : "component.feature.transformer.Bag0fWordsC",
-    "description" : "Bag0fWordsC算法",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
-      "N": {
-        "type": "int",
-        "value": 3
-      },
-      "inputCol" : {
-        "type": "String",
-        "value": ""
-      },
-      "outputCol" : {
-        "type": "String",
-        "value": ""
-      }
+    "input": {
+      "data": true
+    },
+    "output": {
+      "model": true
     }
-  ,
-    "input" : {"data" : true},
-    "output" : {"data" : true}
   },
-
-  "Tokenizer" :  {
-    "name" : "Tokenizer",
-    "class" : "component.feature.extractor.Tokenizer",
-    "description" : "中文分词",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
-      "dictPath" : {
+  "Bag-of-Words": {
+    "name": "Bag-of-Words",
+    "class": "component.feature.extractor.Bag0fWordsC",
+    "description": "Bag0fWordsC算法",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
+      "inputCol": {
         "type": "String",
-        "value": ""
+        "value": "inputCol"
       },
-      "stopwordsPath" : {
+      "outputCol": {
         "type": "String",
-        "value": ""
-      },
-      "inputCol" : {
-        "type": "String",
-        "value": ""
-      },
-      "outputCol" : {
-        "type": "String",
-        "value": ""
+        "value": "outputCol"
       }
+    },
+    "input": {
+      "data": true
+    },
+    "output": {
+      "data": true
     }
-  ,
-    "input" : {"data" : true},
-    "output" : {"data" : true}
   },
-
-  "MysqlData" :  {
-    "name" : "MysqlData",
-    "class" : "component.data.MysqlData",
-    "description" : "读取Mysql上的数据",
-    "version" : "1.0",
-    "created_time" : "2017.9.30",
-    "owner" : "12345678@qq.com",
-    "parameters" : {
+  "Tokenizer": {
+    "name": "Tokenizer",
+    "class": "component.feature.extractor.Tokenizer",
+    "description": "中文分词",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
+      "dictPath": {
+        "type": "String",
+        "value": ""
+      },
+      "stopwordsPath": {
+        "type": "String",
+        "value": ""
+      },
+      "inputCol": {
+        "type": "String",
+        "value": "inputCol"
+      },
+      "outputCol": {
+        "type": "String",
+        "value": "outputCol"
+      }
+    },
+    "input": {
+      "data": true
+    },
+    "output": {
+      "data": true
+    }
+  },
+  "MysqlData": {
+    "name": "MysqlData",
+    "class": "component.data.MysqlData",
+    "description": "读取Mysql上的数据",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
       "ip": {
         "type": "String",
         "value": ""
-      },"port": {
+      },
+      "port": {
         "type": "int",
         "value": 3306
-      },"databases": {
-        "type": "String",
-        "value": ""
-      },"username": {
-        "type": "String",
-        "value": ""
-      },"password": {
-        "type": "String",
-        "value": ""
       },
-      "sql" : {
+      "database": {
         "type": "String",
-        "value": ""
+        "value": "database"
+      },
+      "username": {
+        "type": "String",
+        "value": "root"
+      },
+      "password": {
+        "type": "String",
+        "value": "password"
+      },
+      "sql": {
+        "type": "String",
+        "value": "sql"
       }
+    },
+    "input": {
+      "none": false
+    },
+    "output": {
+      "data": true
     }
-  ,
-    "input" : {"none" : false},
-    "output" : {"data" : true}
   }
-
 }

@@ -18,33 +18,26 @@ import util.SparkUtil;
 
 public class Bag0fWordsC extends Component{
 
-    private Tokenizer tokenizer = new Tokenizer();
+    private Tokenizer tokenizer = new Tokenizer().setOutputCol("temp");
+    private CountVectorizer countVectorizer = new CountVectorizer().setVocabSize(3).setMinDF(2).setInputCol("temp");
     private CountVectorizerModel model;
-    private String[] vocabulary;
 
     public void run(){
         Dataset dataset = inputs.get("data").getDataset();
-        if (model == null)
-            model = new CountVectorizer()
-                    .setInputCol("text")
-                    .setOutputCol("feature")
-                    .setVocabSize(3)
-                    .setMinDF(2)
-                    .fit(dataset);
-        Dataset data = model.transform(dataset);
+        Dataset wordsData = tokenizer.transform(dataset);
+        wordsData.show();
+        model = countVectorizer.fit(wordsData);
+        Dataset newDataset = model.transform(wordsData);
+        newDataset.show();
         if(outputs.containsKey("data"))
-            outputs.get("data").setDataset(data);
+            outputs.get("data").setDataset(newDataset);
     }
 
     public void setParameters(JSONObject parameters) throws JSONException {
-        if(parameters.has("vocabulary")) {
-            vocabulary = parameters.getJSONObject("vocabulary").getString("value").split(" ");
-            model = new CountVectorizerModel(vocabulary);
-        }
         if(parameters.has("inputCol"))
-            model.setInputCol(parameters.getJSONObject("inputCol").getString("value"));
+            tokenizer.setInputCol(parameters.getJSONObject("inputCol").getString("value"));
         if(parameters.has("outputCol"))
-            model.setOutputCol(parameters.getJSONObject("outputCol").getString("value"));
+            countVectorizer.setOutputCol(parameters.getJSONObject("outputCol").getString("value"));
     }
 
 
@@ -83,12 +76,12 @@ public class Bag0fWordsC extends Component{
             }
         }, encoder);
         data.show();
-        tokenizer.setInputCol("value").setOutputCol("new_value");
+        tokenizer.setInputCol("value").setOutputCol("temp");
         Dataset wordsData = tokenizer.transform(data);
         wordsData.show();
 
         model = new CountVectorizer()
-                .setInputCol("new_value")
+                .setInputCol("temp")
                 .setOutputCol("features")
 //                .setVocabSize(3)
 //                .setMinDF(2)

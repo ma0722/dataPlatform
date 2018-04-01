@@ -23,8 +23,8 @@ public class HDFSData extends Component {
     public void setParameters(JSONObject parameters) throws JSONException {
         if(parameters.has("dataFormat"))
             this.dataFormat = parameters.getJSONObject("dataFormat").getString("value");
-        if(parameters.has("path"))
-            this.path = parameters.getJSONObject("path").getString("value");
+        if(parameters.has("dataPath"))
+            this.path = parameters.getJSONObject("dataPath").getString("value");
     }
     
     
