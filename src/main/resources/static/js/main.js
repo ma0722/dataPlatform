@@ -48,7 +48,7 @@ $(document).ready(function(){
                     '<tr>' +
                     '<td class="">' + key + '</td>' +
                     '<td class="">' + ele.type + '</td>' +
-                    '<td>' + '<input type="text"  class="form-control" style="width:60px;"value=' + ele.val + '></td>' +
+                    '<td>' + '<input type="text"  class="form-control" style="width:60px;"value=' + ele.value + '></td>' +
                     '</tr>'
                 )
             )

@@ -218,7 +218,7 @@
   },
   "Tokenizer": {
     "name": "Tokenizer",
-    "class": "component.feature.extractor.Tokenizer",
+    "class": "component.feature.extractor.TokenizerC",
     "description": "中文分词",
     "version": "1.0",
     "created_time": "2017.9.30",
@@ -234,7 +234,7 @@
       },
       "inputCol": {
         "type": "String",
-        "value": "weibo_content"
+        "value": "shohin_bunrui"
       },
       "outputCol": {
         "type": "String",
@@ -258,7 +258,7 @@
     "parameters": {
       "ip": {
         "type": "String",
-        "value": "10.109.247.63"
+        "value": "localhost"
       },
       "port": {
         "type": "int",
@@ -266,7 +266,7 @@
       },
       "database": {
         "type": "String",
-        "value": "db_weibo"
+        "value": "shop"
       },
       "username": {
         "type": "String",
@@ -274,11 +274,11 @@
       },
       "password": {
         "type": "String",
-        "value": "hadoop"
+        "value": "ma0722"
       },
       "sql": {
         "type": "String",
-        "value": "(SELECT * from weibo_original limit 10) as tmp"
+        "value": "(SELECT shohin_bunrui from shohin1) as tmp"
       }
     },
     "input": {

@@ -33,8 +33,8 @@ public class MainController {
                       @RequestParam("links") String links
                       ) throws Exception{
 
-        System.out.print(nodes);
-        System.out.print(links);
+        System.out.println("组件信息：" + nodes);
+        System.out.println("组件协作关系：" + links);
         JSONObject components = new JSONObject(nodes);
         JSONObject edges = new JSONObject(links);
 

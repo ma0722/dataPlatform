@@ -19,8 +19,6 @@ public class KmeansC extends Component {
 
     private String path;
 
-
-
     public void run() throws Exception {
         Dataset dataset = inputs.get("data").getDataset();
         model_ = model.fit(dataset);

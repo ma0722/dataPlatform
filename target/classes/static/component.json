@@ -202,11 +202,11 @@
     "parameters": {
       "inputCol": {
         "type": "String",
-        "value": "inputCol"
+        "value": "value"
       },
       "outputCol": {
         "type": "String",
-        "value": "outputCol"
+        "value": "features"
       }
     },
     "input": {
@@ -218,7 +218,7 @@
   },
   "Tokenizer": {
     "name": "Tokenizer",
-    "class": "component.feature.extractor.Tokenizer",
+    "class": "component.feature.extractor.TokenizerC",
     "description": "中文分词",
     "version": "1.0",
     "created_time": "2017.9.30",
@@ -234,11 +234,11 @@
       },
       "inputCol": {
         "type": "String",
-        "value": "inputCol"
+        "value": "shohin_bunrui"
       },
       "outputCol": {
         "type": "String",
-        "value": "outputCol"
+        "value": "value"
       }
     },
     "input": {
@@ -258,7 +258,7 @@
     "parameters": {
       "ip": {
         "type": "String",
-        "value": ""
+        "value": "localhost"
       },
       "port": {
         "type": "int",
@@ -266,7 +266,7 @@
       },
       "database": {
         "type": "String",
-        "value": "database"
+        "value": "shop"
       },
       "username": {
         "type": "String",
@@ -274,11 +274,11 @@
       },
       "password": {
         "type": "String",
-        "value": "password"
+        "value": "ma0722"
       },
       "sql": {
         "type": "String",
-        "value": "sql"
+        "value": "(SELECT shohin_bunrui from shohin1) as tmp"
       }
     },
     "input": {

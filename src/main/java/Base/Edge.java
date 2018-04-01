@@ -5,9 +5,10 @@ import org.apache.spark.ml.Model;
 import org.apache.spark.ml.linalg.Vector;
 import org.apache.spark.sql.Dataset;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
-public class Edge {
+public class Edge implements Serializable{
 
     private Node startNode;
 

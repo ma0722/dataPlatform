@@ -32,7 +32,7 @@ public class SparkUtil {
 //            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
             SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
             spark = SparkSession.builder().config(conf).getOrCreate();
-            spark.sparkContext().addJar("jars/mysql-connector-java-5.1.46.jar");
+//            spark.sparkContext().addJar("jars/mysql-connector-java-5.1.46.jar");
         }catch (Exception e) {
             e.printStackTrace();
         }

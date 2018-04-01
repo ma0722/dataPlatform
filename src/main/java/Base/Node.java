@@ -4,10 +4,11 @@ import component.Component;
 import org.json.JSONObject;
 import util.ComponentUtil;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 
-public class Node {
+public class Node implements Serializable{
 
     private String name;
     private HashMap<String, Edge> inputs;
@@ -20,9 +21,9 @@ public class Node {
         String type = name.split("_")[0];
         System.out.println(type);
         component = ComponentUtil.generateComponent(type);
-        System.out.println(String.format("========================%s copoment init succsess" , name));
+        System.out.println(String.format("========================%s copoment init succsss" , name));
         component.setParameters(parameters);
-        System.out.println(String.format("========================%s copoment setParameters succsess", name));
+        System.out.println(String.format("========================%s copoment setParameters success", name));
         inputs = new HashMap<String, Edge>();
         outputs = new HashMap<String, Edge>();
     }
@@ -30,8 +31,9 @@ public class Node {
     public void run() throws Exception{
         component.setInputs(inputs);
         component.setOutputs(outputs);
+        System.out.println(String.format("========================start running %s component ", name));
         component.run();
-        System.out.println(String.format("========================%s copoment run succsess", name));
+        System.out.println(String.format("========================%s component run success!", name));
         outputs = component.getOutputs();
     }
 

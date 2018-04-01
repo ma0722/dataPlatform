@@ -40,16 +40,17 @@ public class TokenizerC extends Component implements Serializable{
                 return sb.toString();
             }
         }, encoder);
+        dataset.show();
         if(outputs.containsKey("data"))
             outputs.get("data").setDataset(data);
     }
 
     public void setParameters(JSONObject parameters) throws JSONException {
 
-        if(parameters.has("dictPath"))
+        if(parameters.has("dictPath") && !parameters.getJSONObject("dictPath").getString("value").equals(""))
             DicLibrary.put("dict", parameters.getJSONObject("dictPath").getString("value"));
-        if(parameters.has("stopwordsPath"))
-            StopLibrary.put("stop", parameters.getJSONObject("dicPath").getString("value"));
+        if(parameters.has("stopwordsPath") && !parameters.getJSONObject("stopwordsPath").getString("value").equals(""))
+            StopLibrary.put("stop", parameters.getJSONObject("stopwordsPath").getString("value"));
         if(parameters.has("inputCol"))
             this.inputCol = parameters.getJSONObject("inputCol").getString("value");
         if(parameters.has("outputCol"))

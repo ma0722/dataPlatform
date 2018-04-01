@@ -23,8 +23,7 @@ public class Graph {
             String key = (String)iterator.next();
             JSONObject componentInfo = componentJsonObject.getJSONObject(key);
             JSONObject parameters =  componentInfo.getJSONObject("parameters");
-            String name = componentInfo.getString("name");
-            nodes.put(name, new Node(name, parameters));
+            nodes.put(key, new Node(key, parameters));
         }
         iterator = edgeJsonObject.keys();
         while (iterator.hasNext()) {
