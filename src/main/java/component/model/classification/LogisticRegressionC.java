@@ -18,7 +18,7 @@ public class LogisticRegressionC extends Component {
     private LogisticRegressionModel model_;
 
 
-    private String path;
+    private String modelPath;
 
     public void run() throws Exception {
         Dataset dataset = inputs.get("data").getDataset();
@@ -27,9 +27,8 @@ public class LogisticRegressionC extends Component {
         System.out.println("train LogisticRegression model success");
         if(outputs.containsKey("model"))
             outputs.get("model").setModel(model_);
-        if(path != null && !path.equals("")){
+        if(modelPath != null && !modelPath.equals("")){
             save();
-            System.out.println("model saved success on" + this.path);
         }
     }
 
@@ -46,22 +45,23 @@ public class LogisticRegressionC extends Component {
             model.setFeaturesCol(parameters.getJSONObject("features").getString("value"));
         if(parameters.has("label"))
             model.setFeaturesCol(parameters.getJSONObject("label").getString("value"));
-        if(parameters.has("savePath"))
-            this.path = parameters.getJSONObject("savePath").getString("value");
+        if(parameters.has("modelPath"))
+            this.modelPath = parameters.getJSONObject("modelPath").getString("value");
     }
 
     public void save() throws IOException {
-        model_.save(HDFSFileUtil.HDFSPath(path));
+        model_.save(HDFSFileUtil.HDFSPath(modelPath));
+        System.out.println("model saved success on " + this.modelPath);
     }
     
     @Test
     public void test() throws Exception{
         Dataset dataset =  SparkUtil.readFromHDFS("/data/sample_binary_classification_data.txt", "libsvm");
-        this.path = "/model/LogisticRegression";
+        this.modelPath = "/model/LogisticRegression";
         this.model_ = model.fit(dataset);
-        if(path != null && !path.equals("")){
+        if(modelPath != null && !modelPath.equals("")){
             save();
-            System.out.println("model saved success on " + this.path);
+            System.out.println("model saved success on " + this.modelPath);
         }
     }
 

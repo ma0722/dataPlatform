@@ -34,6 +34,8 @@ $(document).ready(function(){
     currentNode = null;
     currentLink = null;
 
+    initComponent();
+
     function fill_table(name, data) {
         $("#parameterTable").html('<tr> <th>名称</th> <th>类型</th> <th>参数值</th></tr>');
         if (name == null && data == null) {
@@ -70,12 +72,15 @@ $(document).ready(function(){
     }
 
     function initComponent() {
+        console.log("initComponent");
         $("#link").hide();
         $("#componentParameters").hide();
         $("#link_set").hide();
         $.getJSON("component.json").done(function(data){
+            console.log(data);
             componentData = data;
             for(var key in componentData){
+                console.log(key);
                 ele = $('<input type="button" class="btn btn-info" value=""/><br/>');
                 ele.val(key);
                 component_count[key] = 1;
@@ -108,10 +113,11 @@ $(document).ready(function(){
         scene.remove(link);
         from = link.nodeA;
         to = link.nodeZ;
-        node_info[from.text]["output"][link_info[name]["input"]] = true;
-        node_info[to.text]["input"][link_info[name]["output"]] = true;
         delete link_info[from.text + ":" + to.text];
         $("#link").hide();
+
+        node_info[from.text]["output"][link_info[name]["input"]] = true;
+        node_info[to.text]["input"][link_info[name]["output"]] = true;
     }
 
     function newLink(nodeA, nodeZ, dashedPattern){
@@ -126,9 +132,7 @@ $(document).ready(function(){
         scene.add(link);
         return link;
     }
-
-    initComponent();
-
+    
     $("#link_confirm").click(function () {
         beginNode = currentLink.nodeA;
         endNode = currentLink.nodeZ;
@@ -238,15 +242,18 @@ $(document).ready(function(){
     });
 
     $("#delete").click(function(){
+        scene.remove(currentNode);
+        delete node_info[currentNode.text];
+        currentNode = null;
+        beginNode = null;
+
         elements = scene.getDisplayedElements();
         elements.forEach(function(val, index, arr){
             if(val instanceof JTopo.Link && (val.nodeA == currentNode || val.nodeZ == currentNode))
-                removeLink(val);
+                console.log(val);
+            removeLink(val);
         });
-        scene.remove(currentNode);
-        delete node_info[currentLink.text];
-        currentNode = null;
-        beginNode = null;
+
         $("#componentParameters").hide();
     });
 

@@ -7,17 +7,18 @@ import org.ansj.domain.Term;
 import org.ansj.library.*;
 import org.ansj.recognition.impl.StopRecognition;
 import org.ansj.splitWord.analysis.ToAnalysis;
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.function.MapFunction;
 import org.apache.spark.sql.*;
+import org.apache.spark.sql.api.java.UDF1;
+import org.apache.spark.sql.types.DataTypes;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
+import util.SparkUtil;
 
-import java.io.Serializable;
 
 
-public class TokenizerC extends Component implements Serializable{
+
+public class TokenizerC extends Component {
 
     private StopRecognition filter = new StopRecognition();
     private String inputCol;
@@ -26,23 +27,40 @@ public class TokenizerC extends Component implements Serializable{
     public void run(){
 
         Dataset dataset = inputs.get("data").getDataset();
-        Encoder<String> encoder = Encoders.STRING();
-        Dataset data = dataset.map(new MapFunction <Row, String>() {
-            public String call(Row row) {
-                int index = row.fieldIndex(inputCol);
-                String s = (String)row.get(index);
-                Result result = ToAnalysis.parse(s).recognition(filter);
+        dataset.registerTempTable("tmp");
+
+        UDF1 udf = new UDF1<String, String>() {
+            public String call(String s) {
+                Result result = ToAnalysis.parse(s);
                 StringBuffer sb = new StringBuffer();
-                for (Term term: result.getTerms()) {
+                for (Term term : result.getTerms()) {
                     sb.append(term.getName());
                     sb.append(" ");
                 }
                 return sb.toString();
             }
-        }, encoder);
-        dataset.show();
+        };
+        SparkUtil.spark.udf().register("t", udf, DataTypes.StringType);
+
+
+        StringBuffer sbSQL = new StringBuffer();
+        sbSQL.append("select ");
+        for (String col: dataset.columns()) {
+            sbSQL.append(col);
+            sbSQL.append(", ");
+        }
+        sbSQL.append("t(");
+        sbSQL.append(this.inputCol);
+        sbSQL.append(") as ");
+        sbSQL.append(this.outputCol);
+        sbSQL.append(" from tmp");
+        System.out.println(sbSQL.toString());
+
+        Dataset newDataset = SparkUtil.spark.sql(sbSQL.toString());
+
+        newDataset.show();
         if(outputs.containsKey("data"))
-            outputs.get("data").setDataset(data);
+            outputs.get("data").setDataset(newDataset);
     }
 
     public void setParameters(JSONObject parameters) throws JSONException {
@@ -55,43 +73,6 @@ public class TokenizerC extends Component implements Serializable{
             this.inputCol = parameters.getJSONObject("inputCol").getString("value");
         if(parameters.has("outputCol"))
             this.outputCol = parameters.getJSONObject("outputCol").getString("value");
-    }
-
-    @Test
-    public void test() throws Exception{
-
-        SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
-
-        SparkSession spark = SparkSession.builder().config(conf).getOrCreate();
-
-        DataFrameReader reader = spark.read().format("jdbc") ;
-        String url = String.format("jdbc:mysql://%s:%d/%s", "localhost", 3306, "shop");
-        reader.option("url",url);
-        reader.option("dbtable", "(SELECT shohin_bunrui from shohin1) as tmp");
-
-        reader.option("driver","com.mysql.jdbc.Driver");
-        reader.option("user", "root");
-        reader.option("password", "ma0722");
-        Dataset<Row> dataset = reader.load();
-        dataset.show();
-
-        this.inputCol = "shohin_bunrui";
-        Encoder<String> encoder = Encoders.STRING();
-
-        Dataset data = dataset.map(new MapFunction <Row, String>() {
-            public String call(Row row) {
-                int index = row.fieldIndex(inputCol);
-                String s = (String)row.get(index);
-                Result result = ToAnalysis.parse(s).recognition(filter);
-                StringBuffer sb = new StringBuffer();
-                for (Term term: result.getTerms()) {
-                    sb.append(term.getName());
-                    sb.append(" ");
-                }
-                return sb.toString();
-            }
-        }, encoder);
-        data.show();
     }
 
 }

@@ -9,6 +9,7 @@ import org.apache.spark.ml.feature.RFormula;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
+import scala.collection.Seq;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -29,10 +30,10 @@ public class SparkUtil {
             properties.load(SparkUtil.class.getResourceAsStream("/cluster.properties"));
             String master = properties.getProperty("spark_master_ip");
             String port = properties.getProperty("spark_port");
-//            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
-            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
+            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
+//            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://machao-2.local:7077");
+//            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
             spark = SparkSession.builder().config(conf).getOrCreate();
-//            spark.sparkContext().addJar("jars/mysql-connector-java-5.1.46.jar");
         }catch (Exception e) {
             e.printStackTrace();
         }
@@ -42,13 +43,19 @@ public class SparkUtil {
     static public Dataset readFromHDFS(String path, String dataFormat) throws Exception {
         if(!HDFSFileUtil.checkFile(path))
             throw new FileNotFoundException(path + " not found on hadoop!");
-        return spark.read().format(dataFormat).load(HDFSFileUtil.HDFSPath(path));
+        return spark.read().option("header", true).format(dataFormat).load(HDFSFileUtil.HDFSPath(path));
     }
 
-    static public Dataset readFromLocal(String path, String dataFormat) throws Exception{
-        if (!new File(path).exists())
-            throw new FileNotFoundException(path + " not found on local!");
-        return spark.read().format(dataFormat).load(path);
+    static public Dataset readFromLocal(String path, String dataFormat) {
+        try {
+            if (!new File(path).exists())
+                throw new FileNotFoundException(path + " not found on local!");
+            return spark.read().format(dataFormat).load(path);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+
     }
 
 

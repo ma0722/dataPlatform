@@ -29,8 +29,7 @@ public class MysqlData extends Component {
         reader.option("password", password);
 
         Dataset<Row> dataset = reader.load();
-//        for (String v : dataset.columns())
-//            System.out.println(v);
+
         dataset.show();
         if(outputs.containsKey("data"))
             outputs.get("data").setDataset(dataset);
@@ -54,19 +53,23 @@ public class MysqlData extends Component {
     
     @Test
     public void test() throws Exception{
-//        this.ip = "localhost";
-//        this.username = "root";
-//        this.password = "ma0722";
-//        this.database = "bridge";
-//        this.port = 3306;
-//        this.sql = "(SELECT rawdata_id, created_at, updated_at from rawdata) as tmp";
-
         this.ip = "10.109.247.63";
         this.username = "root";
         this.password = "hadoop";
         this.database = "db_weibo";
         this.port = 3306;
         this.sql = "(SELECT * from weibo_original limit 10) as tmp";
+        run();
+    }
+
+    @Test
+    public void test2() throws Exception{
+        this.ip = "localhost";
+        this.username = "root";
+        this.password = "ma0722";
+        this.database = "shop";
+        this.port = 3306;
+        this.sql = "(SELECT shohin_bunrui from shohin1) as tmp";
         run();
     }
 }

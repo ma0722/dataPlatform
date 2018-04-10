@@ -1,6 +1,8 @@
 package util;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -10,11 +12,14 @@ import org.apache.hadoop.fs.BlockLocation;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.hdfs.tools.DFSAdmin;
+import org.apache.hadoop.util.ToolRunner;
+import org.junit.Test;
 
 
 public class HDFSFileUtil {
 
-    private static FileSystem fs;
+    public static FileSystem fs;
     private static String hadoop_master;
     static {
         try{
@@ -28,6 +33,7 @@ public class HDFSFileUtil {
     }
 
     static public String HDFSPath(String path) {
+        System.out.println(hadoop_master + path);
         return hadoop_master + path;
     }
 
@@ -67,5 +73,20 @@ public class HDFSFileUtil {
             arrayList.add(hosts[0]);
         }
         return arrayList;
+    }
+
+    public static ArrayList<String> listPaths(String path) throws Exception {
+        ArrayList<String> paths = new ArrayList<String>();
+        FileStatus[] fileStatuses = fs.listStatus(new Path(path));
+        for (FileStatus fileStatus: fileStatuses) {
+            paths.add(fileStatus.getPath().toString());
+        }
+        return paths;
+    }
+
+    @Test
+    public void test() throws Exception{
+        for (String str: listPaths("/tmp8"))
+            System.out.println(str);
     }
 }

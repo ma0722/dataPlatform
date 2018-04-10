@@ -19,11 +19,11 @@ public class Node implements Serializable{
     public Node(String name, JSONObject parameters) throws Exception{
         this.name = name;
         String type = name.split("_")[0];
-        System.out.println(type);
+        System.out.println(String.format("========================start %s component init ", name));
         component = ComponentUtil.generateComponent(type);
-        System.out.println(String.format("========================%s copoment init succsss" , name));
+        System.out.println(String.format("========================%s component init success" , name));
         component.setParameters(parameters);
-        System.out.println(String.format("========================%s copoment setParameters success", name));
+        System.out.println(String.format("========================%s component setParameters success", name));
         inputs = new HashMap<String, Edge>();
         outputs = new HashMap<String, Edge>();
     }

@@ -9,15 +9,111 @@
     "parameters": {
       "dataPath": {
         "type": "String",
-        "value": "libsvm"
+        "value": "/data/weibo.csv"
       },
       "dataFormat": {
         "type": "String",
-        "value": "user.txt"
+        "value": "csv"
       }
     },
     "input": {
       "None": false
+    },
+    "output": {
+      "data": true
+    }
+  },
+  "MysqlData": {
+    "name": "MysqlData",
+    "class": "component.data.MysqlData",
+    "description": "读取Mysql上的数据",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
+      "ip": {
+        "type": "String",
+        "value": "10.109.247.63"
+      },
+      "port": {
+        "type": "int",
+        "value": 3306
+      },
+      "database": {
+        "type": "String",
+        "value": "db_weibo"
+      },
+      "username": {
+        "type": "String",
+        "value": "root"
+      },
+      "password": {
+        "type": "String",
+        "value": "hadoop"
+      },
+      "sql": {
+        "type": "String",
+        "value": "(SELECT weibo_content from weibo_original limit 30) as tmps"
+      }
+    },
+    "input": {
+      "none": false
+    },
+    "output": {
+      "data": true
+    }
+  },
+  "Tokenizer": {
+    "name": "Tokenizer",
+    "class": "component.feature.extractor.TokenizerC",
+    "description": "中文分词",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
+      "dictPath": {
+        "type": "String",
+        "value": ""
+      },
+      "stopwordsPath": {
+        "type": "String",
+        "value": ""
+      },
+      "inputCol": {
+        "type": "String",
+        "value": "weibo_content"
+      },
+      "outputCol": {
+        "type": "String",
+        "value": "value"
+      }
+    },
+    "input": {
+      "data": true
+    },
+    "output": {
+      "data": true
+    }
+  },
+  "Bag-of-Words": {
+    "name": "Bag-of-Words",
+    "class": "component.feature.extractor.Bag0fWordsC",
+    "description": "Bag0fWordsC算法",
+    "version": "1.0",
+    "created_time": "2017.9.30",
+    "owner": "12345678@qq.com",
+    "parameters": {
+      "inputCol": {
+        "type": "String",
+        "value": "value"
+      },
+      "outputCol": {
+        "type": "String",
+        "value": "features"
+      }
+    },
+    "input": {
+      "data": true
     },
     "output": {
       "data": true
@@ -55,9 +151,9 @@
         "type": "String",
         "value": "label"
       },
-      "savePath": {
+      "modelPath": {
         "type": "String",
-        "value": "null"
+        "value": ""
       }
     },
     "input": {
@@ -95,9 +191,9 @@
         "type": "String",
         "value": "label"
       },
-      "savePath": {
+      "modelPath": {
         "type": "String",
-        "value": "null"
+        "value": ""
       }
     },
     "input": {
@@ -139,9 +235,13 @@
         "type": "String",
         "value": "features"
       },
-      "savePath": {
+      "modelPath": {
         "type": "String",
-        "value": "null"
+        "value": "/model_train/kmeans"
+      },
+      "dataPath": {
+        "type": "String",
+        "value": "/model_data/kmeans"
       }
     },
     "input": {
@@ -180,9 +280,13 @@
         "type": "String",
         "value": "features"
       },
-      "savePath": {
+      "modelPath": {
         "type": "String",
-        "value": "null"
+        "value": "/model_train/GMM"
+      },
+      "dataPath": {
+        "type": "String",
+        "value": "/model_data/GMM"
       }
     },
     "input": {
@@ -190,102 +294,6 @@
     },
     "output": {
       "model": true
-    }
-  },
-  "Bag-of-Words": {
-    "name": "Bag-of-Words",
-    "class": "component.feature.extractor.Bag0fWordsC",
-    "description": "Bag0fWordsC算法",
-    "version": "1.0",
-    "created_time": "2017.9.30",
-    "owner": "12345678@qq.com",
-    "parameters": {
-      "inputCol": {
-        "type": "String",
-        "value": "value"
-      },
-      "outputCol": {
-        "type": "String",
-        "value": "features"
-      }
-    },
-    "input": {
-      "data": true
-    },
-    "output": {
-      "data": true
-    }
-  },
-  "Tokenizer": {
-    "name": "Tokenizer",
-    "class": "component.feature.extractor.TokenizerC",
-    "description": "中文分词",
-    "version": "1.0",
-    "created_time": "2017.9.30",
-    "owner": "12345678@qq.com",
-    "parameters": {
-      "dictPath": {
-        "type": "String",
-        "value": ""
-      },
-      "stopwordsPath": {
-        "type": "String",
-        "value": ""
-      },
-      "inputCol": {
-        "type": "String",
-        "value": "shohin_bunrui"
-      },
-      "outputCol": {
-        "type": "String",
-        "value": "value"
-      }
-    },
-    "input": {
-      "data": true
-    },
-    "output": {
-      "data": true
-    }
-  },
-  "MysqlData": {
-    "name": "MysqlData",
-    "class": "component.data.MysqlData",
-    "description": "读取Mysql上的数据",
-    "version": "1.0",
-    "created_time": "2017.9.30",
-    "owner": "12345678@qq.com",
-    "parameters": {
-      "ip": {
-        "type": "String",
-        "value": "localhost"
-      },
-      "port": {
-        "type": "int",
-        "value": 3306
-      },
-      "database": {
-        "type": "String",
-        "value": "shop"
-      },
-      "username": {
-        "type": "String",
-        "value": "root"
-      },
-      "password": {
-        "type": "String",
-        "value": "ma0722"
-      },
-      "sql": {
-        "type": "String",
-        "value": "(SELECT shohin_bunrui from shohin1) as tmp"
-      }
-    },
-    "input": {
-      "none": false
-    },
-    "output": {
-      "data": true
     }
   }
 }

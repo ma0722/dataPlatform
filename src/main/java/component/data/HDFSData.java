@@ -26,8 +26,7 @@ public class HDFSData extends Component {
         if(parameters.has("dataPath"))
             this.path = parameters.getJSONObject("dataPath").getString("value");
     }
-    
-    
+
     @Test
     public void test() throws Exception{
         this.path = "/data/weibo.csv";
