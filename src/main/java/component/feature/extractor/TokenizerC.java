@@ -12,11 +12,7 @@ import org.apache.spark.sql.api.java.UDF1;
 import org.apache.spark.sql.types.DataTypes;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.junit.Test;
 import util.SparkUtil;
-
-
-
 
 public class TokenizerC extends Component {
 
@@ -31,7 +27,7 @@ public class TokenizerC extends Component {
 
         UDF1 udf = new UDF1<String, String>() {
             public String call(String s) {
-                Result result = ToAnalysis.parse(s);
+                Result result = ToAnalysis.parse(s).recognition(filter);
                 StringBuffer sb = new StringBuffer();
                 for (Term term : result.getTerms()) {
                     sb.append(term.getName());
@@ -46,6 +42,7 @@ public class TokenizerC extends Component {
         StringBuffer sbSQL = new StringBuffer();
         sbSQL.append("select ");
         for (String col: dataset.columns()) {
+            if (col.trim().equals("#") || col.trim().equals("*")) continue;
             sbSQL.append(col);
             sbSQL.append(", ");
         }
@@ -64,11 +61,12 @@ public class TokenizerC extends Component {
     }
 
     public void setParameters(JSONObject parameters) throws JSONException {
-
-        if(parameters.has("dictPath") && !parameters.getJSONObject("dictPath").getString("value").equals(""))
-            DicLibrary.put("dict", parameters.getJSONObject("dictPath").getString("value"));
-        if(parameters.has("stopwordsPath") && !parameters.getJSONObject("stopwordsPath").getString("value").equals(""))
-            StopLibrary.put("stop", parameters.getJSONObject("stopwordsPath").getString("value"));
+        if(parameters.has("dictPath") && !parameters.getJSONObject("dictPath").getString("value").equals("")) {
+            DicLibrary.put("dict", "src/main/resources/" + parameters.getJSONObject("dictPath").getString("value"));
+        }
+        if(parameters.has("stopwordsPath") && !parameters.getJSONObject("stopwordsPath").getString("value").equals("")) {
+            StopLibrary.put("stop", "src/main/resources/" + parameters.getJSONObject("stopwordsPath").getString("value"));
+        }
         if(parameters.has("inputCol"))
             this.inputCol = parameters.getJSONObject("inputCol").getString("value");
         if(parameters.has("outputCol"))

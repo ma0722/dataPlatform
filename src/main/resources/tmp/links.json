@@ -1,0 +1,1 @@
+{"ReadHDFSData_1:Tokenizer_1":{"input":"data","output":"data"},"Tokenizer_1:Bag-of-Words_1":{"input":"data","output":"data"},"Bag-of-Words_1:Kmeans_1":{"input":"data","output":"data"}}

@@ -29,7 +29,7 @@ public class HDFSData extends Component {
 
     @Test
     public void test() throws Exception{
-        this.path = "/data/weibo.csv";
+        this.path = "/tmp/weibo.csv";
         this.dataFormat = "csv";
         run();
     }

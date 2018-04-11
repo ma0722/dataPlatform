@@ -53,7 +53,7 @@
       },
       "sql": {
         "type": "String",
-        "value": "(SELECT weibo_content from weibo_original limit 30) as tmps"
+        "value": "(SELECT weibo_content, label from weibo_original limit 30) as tmp"
       }
     },
     "input": {
@@ -73,11 +73,11 @@
     "parameters": {
       "dictPath": {
         "type": "String",
-        "value": ""
+        "value": "dictLibrary/userLibrary.dic"
       },
       "stopwordsPath": {
         "type": "String",
-        "value": ""
+        "value": "dictLibrary/stopLibrary.dic"
       },
       "inputCol": {
         "type": "String",
@@ -153,7 +153,7 @@
       },
       "modelPath": {
         "type": "String",
-        "value": ""
+        "value": "/model_train/logisticsRegression"
       }
     },
     "input": {
@@ -173,11 +173,11 @@
     "parameters": {
       "maxDepth": {
         "type": "int",
-        "value": 0
+        "value": 10
       },
       "maxBins": {
         "type": "int",
-        "value": 0
+        "value": 10
       },
       "minInfoGain": {
         "type": "double",
@@ -193,7 +193,7 @@
       },
       "modelPath": {
         "type": "String",
-        "value": ""
+        "value": "/model_train/decisionTree"
       }
     },
     "input": {

@@ -23,17 +23,22 @@ public class GMMC extends Component {
 
     public void run() throws Exception {
         Dataset dataset = inputs.get("data").getDataset();
+        dataset = dataset.cache();
+        System.out.println("----------training GMM model----------");
         model_ = model.fit(dataset);
+        System.out.println("----------model GMM train success----------");
         if(outputs.containsKey("model"))
             outputs.get("model").setModel(model_);
-        if(modelPath != null && !modelPath.equals("")) {
-            save();
-        }
         if(dataPath != null && !dataPath.equals("")) {
             Dataset result = model_.transform(dataset);
             result.show();
-            result.write().csv(HDFSFileUtil.HDFSPath(dataPath));
+            while (HDFSFileUtil.checkFile(dataPath))
+                HDFSFileUtil.delFile(dataPath, true);
+            result.write().save(HDFSFileUtil.HDFSPath(dataPath));
             System.out.println("data saved success on " + HDFSFileUtil.HDFSPath(dataPath));
+        }
+        if(modelPath != null && !modelPath.equals("")) {
+            save();
         }
     }
 
@@ -55,13 +60,15 @@ public class GMMC extends Component {
     }
 
     public void save() throws IOException {
+        while (HDFSFileUtil.checkFile(modelPath))
+            HDFSFileUtil.delFile(modelPath, true);
         model_.save(HDFSFileUtil.HDFSPath(modelPath));
-        System.out.println("model saved success on " + this.modelPath);
+        System.out.println("model saved success on " + modelPath);
     }
     
     @Test
     public void test() throws Exception{
-        Dataset dataset =  SparkUtil.readFromHDFS("/data/sample_cluster_data.txt", "libsvm");
+        Dataset dataset =  SparkUtil.readFromHDFS("/tmp/sample_cluster_data.txt", "libsvm");
         model_ = model.fit(dataset);
         this.modelPath = "/mode/GMM";
         if(modelPath != null && !modelPath.equals("")){

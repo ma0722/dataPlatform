@@ -1,6 +1,7 @@
 package Base;
 
 import org.json.JSONObject;
+import util.JSONUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,14 +41,13 @@ public class Graph {
 
     public void run() throws Exception{
         ArrayList<Node> nodeToposort = Toposort();
-        if (nodeToposort == null || nodeToposort.size() == 0)
+        if (nodeToposort == null || nodeToposort.size() == 0) {
             return;
+        }
         for (Node node: nodeToposort) {
             node.run();
         }
-
     }
-
 
     private ArrayList<Node> Toposort() {
         ArrayList<Node> nodeArrayList = new ArrayList<Node>();
@@ -73,6 +73,9 @@ public class Graph {
         }
         if (nodeArrayList.size() != nodes.size())
             return null;
+        for (Node node: nodeArrayList) {
+            System.out.println(node.getName());
+        }
         return nodeArrayList;
 
     }
@@ -93,4 +96,11 @@ public class Graph {
         this.edges = edges;
     }
 
+    public static void main(String[] args) throws Exception{
+        JSONObject componentJsonObject = JSONUtil.jsonRead("src/main/resources/tmp/nodes.json");
+        JSONObject edgeJsonObject = JSONUtil.jsonRead("src/main/resources/tmp/links.json");
+        Graph graph = new Graph(componentJsonObject, edgeJsonObject);
+        graph.run();
+//        System.out.println("job run success");
+    }
 }

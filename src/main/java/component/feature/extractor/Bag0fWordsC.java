@@ -7,7 +7,6 @@ import org.apache.spark.ml.clustering.KMeans;
 import org.apache.spark.ml.clustering.KMeansModel;
 import org.apache.spark.ml.feature.CountVectorizer;
 import org.ansj.splitWord.analysis.ToAnalysis;
-import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.function.MapFunction;
 import org.apache.spark.ml.feature.CountVectorizerModel;
 import org.apache.spark.ml.feature.Tokenizer;
@@ -16,7 +15,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
 import util.SparkUtil;
-import org.apache.spark.api.java.function.MapFunction;
 
 public class Bag0fWordsC extends Component{
 

@@ -113,11 +113,12 @@ $(document).ready(function(){
         scene.remove(link);
         from = link.nodeA;
         to = link.nodeZ;
-        delete link_info[from.text + ":" + to.text];
-        $("#link").hide();
 
-        node_info[from.text]["output"][link_info[name]["input"]] = true;
-        node_info[to.text]["input"][link_info[name]["output"]] = true;
+        linkName = from.text + ":" + to.text;
+        node_info[from.text]["output"][link_info[linkName]["input"]] = true;
+        node_info[to.text]["input"][link_info[linkName]["output"]] = true;
+        delete link_info[linkName];
+        $("#link").hide();
     }
 
     function newLink(nodeA, nodeZ, dashedPattern){
@@ -243,16 +244,23 @@ $(document).ready(function(){
 
     $("#delete").click(function(){
         scene.remove(currentNode);
+
+        var elements = scene.getDisplayedElements();
+        var tmp = {};
+        elements.forEach(function(val, index, arr){
+            if(val instanceof JTopo.Link && (val.nodeA == currentNode || val.nodeZ == currentNode)) {
+                tmp[val.nodeA.text+":"+val.nodeZ.text] = val;
+            }
+        });
+
+        console.log(tmp);
+        for(var linkName in tmp){
+            console.log(linkName);
+            removeLink(tmp[linkName]);
+        }
         delete node_info[currentNode.text];
         currentNode = null;
         beginNode = null;
-
-        elements = scene.getDisplayedElements();
-        elements.forEach(function(val, index, arr){
-            if(val instanceof JTopo.Link && (val.nodeA == currentNode || val.nodeZ == currentNode))
-                console.log(val);
-            removeLink(val);
-        });
 
         $("#componentParameters").hide();
     });

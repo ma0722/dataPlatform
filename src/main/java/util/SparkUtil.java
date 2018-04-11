@@ -1,19 +1,11 @@
 package util;
 
-
-import org.apache.ivy.util.StringUtils;
 import org.apache.spark.SparkConf;
-import org.apache.spark.SparkContext;
-import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.ml.feature.RFormula;
 import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-import scala.collection.Seq;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.List;
 import java.util.Properties;
 
 public class SparkUtil {
@@ -32,7 +24,6 @@ public class SparkUtil {
             String port = properties.getProperty("spark_port");
             SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://" + master + ":" + port);
 //            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("spark://machao-2.local:7077");
-//            SparkConf conf = new SparkConf().setAppName("data-platform").setMaster("local");
             spark = SparkSession.builder().config(conf).getOrCreate();
         }catch (Exception e) {
             e.printStackTrace();
