@@ -59,7 +59,7 @@ public class MainController {
             Properties properties = new Properties();
             properties.load(MainController.class.getResourceAsStream("/command.properties"));
             String submitShellPath = properties.getProperty("submitShellPath");;
-            String packagePath = "target/data-platform-1.0-SNAPSHOT-jar-with-dependencies.jar";
+            String packagePath = " target/data-platform-1.0-SNAPSHOT-jar-with-dependencies.jar";
             String command = String.format("%s %s", submitShellPath, packagePath);
             System.out.println(command);
             Process ps = Runtime.getRuntime().exec(command);
