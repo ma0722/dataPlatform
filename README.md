@@ -14,6 +14,7 @@
 * cluster.properties：Hadoop与Spark的IP、端口配置文件
 * command.properties：本地spark-submit路径
 * log4j.properties：日志配置文件
+* dictLibrary：词典目录
 
 
 ## 项目部署

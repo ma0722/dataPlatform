@@ -10,7 +10,6 @@
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/Base/Node.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/component/model/classification/LogisticRegressionC.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/com/light/springboot/SpringbootApplication.java
-/Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/Main.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/util/SparkUtil.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/unused/HDFSTokenizer.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/component/Component.java
@@ -19,5 +18,4 @@
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/unused/TokenizerC_1.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/component/model/cluster/KmeansC.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/Base/Graph.java
-/Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/Test.java
 /Users/MaChao/Documents/code/platform/dataPlatform/src/main/java/component/feature/extractor/Bag0fWordsC.java

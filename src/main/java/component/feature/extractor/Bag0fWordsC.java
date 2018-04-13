@@ -19,7 +19,7 @@ import util.SparkUtil;
 public class Bag0fWordsC extends Component{
 
     private Tokenizer tokenizer = new Tokenizer().setOutputCol("temp");
-    private CountVectorizer countVectorizer = new CountVectorizer().setVocabSize(3).setMinDF(2).setInputCol("temp");
+    private CountVectorizer countVectorizer = new CountVectorizer().setMinDF(2).setInputCol("temp");
     private CountVectorizerModel model;
 
     private String inputCol;
